@@ -1,0 +1,73 @@
+*** mp4box-io-dead_ogg logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:08 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/dead_ogg.ogg" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/dead_ogg.ogg:
+File has 2 tracks
+	Track 1 type: Audio (....)
+	Track 2 type: Video (theo)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/dead_ogg.ogg -new /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4" ***
+[32mOGG Vorbis import - sample rate 44100 - 1 channel
+[0m[32mOGG Theora import - 25.0000 FPS - Resolution 320 x 240
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:40.523 - Indicated Duration 00:00:40.523
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: Not part of MPEG-4 Visual profiles (0xfe)
+Audio PL: Not part of MPEG-4 audio profiles (0xfe)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 44100
+Media Duration 00:00:40.524 - Indicated Duration 00:00:40.524
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 2783 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0xdd
+Ogg/Vorbis audio / GPAC Mux - Sample Rate 44100 - 1 channel(s)
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.dd.0
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 25000
+Media Duration 00:00:40.400 - Indicated Duration 00:00:40.400
+Media Info: Language "Undetermined (und)" - Type "vide:mp4v" - 1010 samples
+Visual Track layout: x=0 y=0 width=320 height=240
+MPEG-4 Config: Visual Stream - ObjectTypeIndication 0xdd
+Ogg/Theora video / GPAC Mux  - Visual Size 320 x 240
+Synchronized on stream 1
+	RFC6381 Codec Parameters: mp4v.dd.0
+	Average GOP length: 31 samples
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.2.tmp" ***
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "mp4a:mp4a" (mpeg4-generic) - BW 128 kbps
+Hinting track ID 2 - Type "mp4v:mp4v" (mpeg4-generic) - BW 451 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4.hint" ***
+Removing hint track ID 65536
+Removing hint track ID 65537
+Saving /home/vinguyen/code/gpac/tests/results/temp/dead_ogg.mp4.hint: 0.500 secs Interleaving
+

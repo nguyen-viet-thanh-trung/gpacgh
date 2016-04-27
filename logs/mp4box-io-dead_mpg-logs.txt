@@ -1,0 +1,71 @@
+*** mp4box-io-dead_mpg logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:07 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/dead_mpg.mpg" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/dead_mpg.mpg:
+File has 2 tracks
+	Track 1 type: Video (MPG1)
+	Track 2 type: Audio (MPGA)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/dead_mpg.mpg -new /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4" ***
+[32mMPEG-1 Video import - Resolution 320 x 240 @ 25.0000 FPS
+[0m[32mMPEG-1 Audio import - sample rate 44100 - 1 channel
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:40.698 - Indicated Duration 00:00:40.698
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 25000
+Media Duration 00:00:40.680 - Indicated Duration 00:00:40.680
+Track has 1 edit lists: track duration is 00:00:40.640
+Media Info: Language "Undetermined (und)" - Type "vide:mp4v" - 1017 samples
+Visual Track layout: x=0 y=0 width=320 height=240
+MPEG-4 Config: Visual Stream - ObjectTypeIndication 0x6a
+Visual Size 320 x 240
+Self-synchronized
+	RFC6381 Codec Parameters: mp4v.6a
+	Average GOP length: 14 samples
+
+Track # 2 Info - TrackID 2 - TimeScale 44100
+Media Duration 00:00:40.698 - Indicated Duration 00:00:40.698
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 1558 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x6b
+MPEG-1 Audio - 1 Channel(s) - SampleRate 44100 - Layer 2
+Synchronized on stream 1
+	RFC6381 Codec Parameters: mp4a.6b
+	All samples are sync
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.2.tmp" ***
+	File has CTTS table errors
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "mp4v:mp4v" (MPV) - BW 550 kbps
+Hinting track ID 2 - Type "mp4a:mp4a" (MPA) - BW 96 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4.hint" ***
+Removing hint track ID 65536
+Removing hint track ID 65537
+Saving /home/vinguyen/code/gpac/tests/results/temp/dead_mpg.mp4.hint: 0.500 secs Interleaving
+

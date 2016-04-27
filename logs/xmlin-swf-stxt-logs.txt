@@ -1,0 +1,98 @@
+*** xmlin-swf-stxt logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:49 ***
+
+
+*** Subtest "import": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/xmlin4/anim.swf:fmt=svg -new /home/vinguyen/code/gpac/tests/results/temp/text-stxt-svg.mp4" ***
+[32mSWF import (as text - type: svg)
+[0m[32mSWF Import - Scene Size 170x170 - 30 frames @ 25 FPS
+[0m[31m[SWF Parsing] Tag UnknownTag (0x45) not implemented - skipping (frame 1)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 1)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 1)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 2)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 2)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 3)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 3)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 4)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 4)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 5)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 5)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 6)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 6)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 7)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 7)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 8)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 8)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 9)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 9)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 10)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 10)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 11)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 11)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 12)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 12)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 13)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 13)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 14)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 14)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 15)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 15)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 16)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 16)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 17)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 17)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 18)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 18)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 19)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 19)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 20)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 20)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 21)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 21)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 22)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 22)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 23)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 23)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 24)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 24)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 25)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 25)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 26)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 26)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 27)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 27)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 28)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 28)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 29)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 29)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 30)
+[0m[31m[SWF Parsing] Clipping not supported - ignoring (frame 30)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/text-stxt-svg.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "info": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/text-stxt-svg.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:01.200 - Indicated Duration 00:00:01.200
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:01.200 - Indicated Duration 00:00:01.200
+Media Info: Language "Undetermined (und)" - Type "text:stxt" - 30 samples
+Simple Timed Text Stream - mime image/svg+xml - 206 bytes config
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: stxt
+	Only one sync sample
+
+
+
+*** Subtest "export-track": executing "MP4Box -noprog -for-test  -raw 1 /home/vinguyen/code/gpac/tests/results/temp/text-stxt-svg.mp4" ***
+[33mExtracting Simple Text Stream
+[0m[33mas SVG file
+[0m
+
+*** Subtest "export-samples": executing "MP4Box -noprog -for-test  -raws 1 /home/vinguyen/code/gpac/tests/results/temp/text-stxt-svg.mp4" ***
+[33mExtracting Simple Text samples
+[0m

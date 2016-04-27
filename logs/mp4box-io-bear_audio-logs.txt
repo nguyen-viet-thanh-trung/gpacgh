@@ -1,0 +1,53 @@
+*** mp4box-io-bear_audio logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:07 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/bear_audio.amr" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/bear_audio.amr:
+File has 1 tracks
+	Track 1 type: Audio (....)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/bear_audio.amr -new /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4" ***
+[32mImporting AMR Audio
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:29.940 - Indicated Duration 00:00:29.940
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 8000
+Media Duration 00:00:29.940 - Indicated Duration 00:00:29.940
+Media Info: Language "Undetermined (und)" - Type "soun:samr" - 1497 samples
+	3GPP AMR stream - Sample Rate 8000 - 1 channel(s) 16 bps
+	RFC6381 Codec Parameters: samr
+	All samples are sync
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/bear_audio.2.tmp" ***
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "samr:samr" (AMR) - BW 13 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/bear_audio.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4.hint" ***
+Removing hint track ID 65536
+Saving /home/vinguyen/code/gpac/tests/results/temp/bear_audio.mp4.hint: 0.500 secs Interleaving
+

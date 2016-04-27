@@ -1,0 +1,27 @@
+ <test name="mp4box-io-aac_vbr_51_128k" result="OK" date="27/04/2016 17:45:06">
+
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="3896" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/aac_vbr_51_128k.aac</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4360" cpu_percent="100%" cpu_elapsed_time="0:00.06" cpu_user_time="0.00" cpu_kernel_time="0.06" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/aac_vbr_51_128k.aac -new /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4264" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4032" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.2.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4436" cpu_percent="81%" cpu_elapsed_time="0:00.06" cpu_user_time="0.00" cpu_kernel_time="0.05" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4196" cpu_percent="57%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.1.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4140" cpu_percent="92%" cpu_elapsed_time="0:00.01" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4184" cpu_percent="91%" cpu_elapsed_time="0:00.01" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint</command_line>
+  </stat>
+ </test>

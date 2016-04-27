@@ -1,0 +1,2 @@
+*** mp4client-rawout-argb-yuv logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:45 ***
+

@@ -1,0 +1,53 @@
+*** mp4box-io-count_english logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:07 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/count_english.qcp" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/count_english.qcp:
+File has 1 tracks
+	Track 1 type: Audio (....)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/count_english.qcp -new /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4" ***
+[32mImporting QCELP-13K Audio - SampleRate 8000
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:10.020 - Indicated Duration 00:00:10.020
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand 3g2a - version 65536
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 8000
+Media Duration 00:00:10.020 - Indicated Duration 00:00:10.020
+Media Info: Language "Undetermined (und)" - Type "soun:sqcp" - 501 samples
+	3GPP QCELP stream - Sample Rate 8000 - 1 channel(s) 16 bps
+	RFC6381 Codec Parameters: sqcp
+	All samples are sync
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/count_english.2.tmp" ***
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "sqcp:sqcp" (QCELP) - BW 7 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/count_english.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4.hint" ***
+Removing hint track ID 65536
+Saving /home/vinguyen/code/gpac/tests/results/temp/count_english.mp4.hint: 0.500 secs Interleaving
+

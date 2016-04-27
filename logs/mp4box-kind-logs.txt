@@ -1,0 +1,246 @@
+*** mp4box-kind logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:09 ***
+
+
+*** Subtest "kind-all-rem-scheme": executing "MP4Box -noprog -for-test  -kind-rem all=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-with-column": executing "MP4Box -noprog -for-test  -kind all=urn:gpac:kindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-with-column-rem": executing "MP4Box -noprog -for-test  -kind-rem all=urn:gpac:kindScheme=myKindValue  /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-2-schemes-1": executing "MP4Box -noprog -for-test  -kind all=myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-2-schemes-2": executing "MP4Box -noprog -for-test  -kind all=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-2-schemes-rem-1": executing "MP4Box -noprog -for-test  -kind-rem all=myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-2-schemes-rem-2": executing "MP4Box -noprog -for-test  -kind-rem all=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-same-scheme-1": executing "MP4Box -noprog -for-test  -kind all=myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-same-scheme-2": executing "MP4Box -noprog -for-test  -kind all=myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-same-scheme-value-1": executing "MP4Box -noprog -for-test  -kind all=myFirstKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme": executing "MP4Box -noprog -for-test  -kind all=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-same-scheme-value-2": executing "MP4Box -noprog -for-test  -kind all=myFirstKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme": executing "MP4Box -noprog -for-test  -kind myKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-rem": executing "MP4Box -noprog -for-test  -kind-rem myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-rem-twice": executing "MP4Box -noprog -for-test  -kind-rem myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-value": executing "MP4Box -noprog -for-test  -kind myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-value-rem": executing "MP4Box -noprog -for-test  -kind-rem myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-value-multiple-1": executing "MP4Box -noprog -for-test  -kind myKindScheme=myKindValue2 /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-value-multiple-2": executing "MP4Box -noprog -for-test  -kind myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-value-multiple-3": executing "MP4Box -noprog -for-test  -kind myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-multiple-rem-1": executing "MP4Box -noprog -for-test  -kind-rem myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-rem": executing "MP4Box -noprog -for-test  -kind-rem all=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-rem-scheme": executing "MP4Box -noprog -for-test  -kind-rem myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-with-column": executing "MP4Box -noprog -for-test  -kind urn:gpac:kindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-scheme-with-column-rem": executing "MP4Box -noprog -for-test  -kind-rem urn:gpac:kindScheme=myKindValue  /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-2-schemes-1": executing "MP4Box -noprog -for-test  -kind myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-2-schemes-2": executing "MP4Box -noprog -for-test  -kind mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-2-schemes-rem-1": executing "MP4Box -noprog -for-test  -kind-rem myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-2-schemes-rem-2": executing "MP4Box -noprog -for-test  -kind-rem mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-same-scheme-1": executing "MP4Box -noprog -for-test  -kind myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-same-scheme-1": executing "MP4Box -noprog -for-test  -kind myFirstKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-same-scheme-value-1": executing "MP4Box -noprog -for-test  -kind myFirstKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-rem-twice": executing "MP4Box -noprog -for-test  -kind-rem all=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-same-scheme-value-2": executing "MP4Box -noprog -for-test  -kind myFirstKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-scheme": executing "MP4Box -noprog -for-test  -kind 1=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-scheme-rem": executing "MP4Box -noprog -for-test  -kind-rem 1=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-scheme-value": executing "MP4Box -noprog -for-test  -kind 1=myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-scheme-value-rem": executing "MP4Box -noprog -for-test  -kind-rem 1=myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-1": executing "MP4Box -noprog -for-test  -kind 1=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-2": executing "MP4Box -noprog -for-test  -kind 1=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-rem-1": executing "MP4Box -noprog -for-test  -kind-rem 1=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-rem-2": executing "MP4Box -noprog -for-test  -kind-rem 1=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-2-tracks-1": executing "MP4Box -noprog -for-test  -kind 1=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-value": executing "MP4Box -noprog -for-test  -kind all=myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-2-tracks-2": executing "MP4Box -noprog -for-test  -kind 2=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-2-tracks-rem-1": executing "MP4Box -noprog -for-test  -kind-rem 1=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-track-2-schemes-2-tracks-rem-2": executing "MP4Box -noprog -for-test  -kind-rem 2=mySecondKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-mp4": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/out.mp4 /home/vinguyen/code/gpac/tests/results/temp/out2.mp4" ***
+[32mIsoMedia import out.mp4 - track ID 1 - Video (size 128 x 128)
+[0m[32mIsoMedia import out.mp4 - track ID 2 - Audio (SR 48000 - 2 channels)
+[0mSaving to /home/vinguyen/code/gpac/tests/results/temp/out2.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-track-scheme": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:kind=myKindScheme -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - Video (size 128 x 128)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-track-scheme-value": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:kind=myKindScheme=myKindValue -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - Video (size 128 x 128)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-track-scheme-value-column": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:kind=urn:gpac:kindScheme=myKindValue -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - Video (size 128 x 128)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-track-2-schemes-same-kind": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:kind=myKindScheme=myKindValue:kind=myKindScheme=myKindValue2 -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - Video (size 128 x 128)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-track-2-schemes-same-kind": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:kind=myKindScheme=myKindValue:kind=myKindScheme2=myKindValue2 -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - Video (size 128 x 128)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-import-track-2-kinds-same": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:kind=myKindScheme=myKindValue:kind=myKindScheme=myKindValue -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - Video (size 128 x 128)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-value-rem": executing "MP4Box -noprog -for-test  -kind-rem all=myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-value-multiple-1": executing "MP4Box -noprog -for-test  -kind all=myKindScheme=myKindValue2 /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-value-multiple-2": executing "MP4Box -noprog -for-test  -kind all=myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-scheme-value-multiple-3": executing "MP4Box -noprog -for-test  -kind all=myKindScheme /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "kind-all-multiple-rem-1": executing "MP4Box -noprog -for-test  -kind-rem all=myKindScheme=myKindValue /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+

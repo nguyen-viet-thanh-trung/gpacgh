@@ -1,0 +1,59 @@
+*** mp4box-io-aac_vbr_51_128k logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:06 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/aac_vbr_51_128k.aac" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/aac_vbr_51_128k.aac:
+File has 1 tracks
+	Track 1 type: Audio (....)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/aac_vbr_51_128k.aac -new /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4" ***
+[32mAAC ADTS import  - sample rate 22050 - MPEG-4 audio - 6 channels
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:02:58.096 - Indicated Duration 00:02:58.096
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 6 (0x50)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 22050
+Media Duration 00:02:58.097 - Indicated Duration 00:02:58.097
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 3835 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 6 Channel(s) - SampleRate 22050
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.2.tmp" ***
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "mp4a:mp4a" (mpeg4-generic) - BW 122 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint" ***
+Removing hint track ID 65536
+Saving /home/vinguyen/code/gpac/tests/results/temp/aac_vbr_51_128k.mp4.hint: 0.500 secs Interleaving
+

@@ -1,0 +1,665 @@
+*** mp4box-lang logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:10 ***
+
+
+*** Subtest "all-twice": executing "MP4Box -noprog -for-test  -lang all=fr-FR /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "French (fr-FR)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "French (fr-FR)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "2-char": executing "MP4Box -noprog -for-test  -lang en /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "3-char": executing "MP4Box -noprog -for-test  -lang eng /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (eng)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (eng)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "2-2-char": executing "MP4Box -noprog -for-test  -lang en-US /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en-US)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "track-2-char": executing "MP4Box -noprog -for-test  -lang 1=en /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "all-2-char": executing "MP4Box -noprog -for-test  -lang all=en /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/out.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out_info.xml" ***
+
+
+*** Subtest "track-3-char": executing "MP4Box -noprog -for-test  -lang 1=eng /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (eng)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "track-2-2-char": executing "MP4Box -noprog -for-test  -lang 1=en-US /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -lang 1=en-US /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "Undetermined (und)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "second-track": executing "MP4Box -noprog -for-test  -lang 2=en-US /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en-US)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -lang en-US /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en-US)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "copy": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/out.mp4 -new /home/vinguyen/code/gpac/tests/results/temp/out2.mp4" ***
+[32mIsoMedia import out.mp4 - track ID 1 - media type "text:tx3g"
+[0m[32mIsoMedia import out.mp4 - track ID 2 - Audio (SR 48000 - 2 channels)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out2.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out2.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en-US)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "param-2-char": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:lang=en -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - media type "text:tx3g"
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+
+
+*** Subtest "param-3-char": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:lang=eng -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - media type "text:tx3g"
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (eng)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+
+
+*** Subtest "param-2-2-char": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:lang=en-US -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - media type "text:tx3g"
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+
+
+*** Subtest "param-twice": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/file.mp4#1:lang=fr-FR:lang=en-US -new /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+[32mIsoMedia import file.mp4 - track ID 1 - media type "text:tx3g"
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/out.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out_info.xml" ***
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+
+
+*** Subtest "all-3-char": executing "MP4Box -noprog -for-test  -lang all=eng /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (eng)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (eng)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "all-2-2-char": executing "MP4Box -noprog -for-test  -lang all=en-US /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en-US)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -lang all=en-US /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/out.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/out.mp4" ***
+* Movie Info *
+	Timescale 600 - 2 tracks
+	Computed Duration 00:00:02.786 - Indicated Duration 00:00:02.786
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: No visual capability required (0xff)
+Audio PL: AAC Profile @ Level 2 (0x29)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:02.787 - Indicated Duration 00:00:02.787
+Media Info: Language "English (en-US)" - Type "text:tx3g" - 2 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+Track # 2 Info - TrackID 2 - TimeScale 48000
+Media Duration 00:00:01.002 - Indicated Duration 00:00:01.002
+Media Info: Language "English (en-US)" - Type "soun:mp4a" - 47 samples
+MPEG-4 Config: Audio Stream - ObjectTypeIndication 0x40
+MPEG-4 Audio AAC LC - 2 Channel(s) - SampleRate 48000
+Self-synchronized
+	RFC6381 Codec Parameters: mp4a.40.2
+	All samples are sync
+
+

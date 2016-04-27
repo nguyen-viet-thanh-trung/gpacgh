@@ -1,0 +1,52 @@
+*** mp4box-io-rus_utf16 logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:09 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/rus_utf16.srt" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/rus_utf16.srt:
+File has no selectable tracks
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/rus_utf16.srt -new /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4" ***
+[32mTimed Text (SRT) import - text track 400 x 60, font Serif (size 18)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:10.840 - Indicated Duration 00:00:10.840
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:10.840 - Indicated Duration 00:00:10.840
+Media Info: Language "Undetermined (und)" - Type "text:tx3g" - 7 samples
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: tx3g
+	All samples are sync
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.2.tmp" ***
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "tx3g:tx3g" (3gpp-tt) - BW 0 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4.hint" ***
+Removing hint track ID 65536
+Saving /home/vinguyen/code/gpac/tests/results/temp/rus_utf16.mp4.hint: 0.500 secs Interleaving
+

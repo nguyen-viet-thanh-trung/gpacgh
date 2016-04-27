@@ -1,0 +1,27 @@
+ <test name="mp4box-io-avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac" result="OK" date="27/04/2016 17:45:07">
+
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="3864" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.h264</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4368" cpu_percent="100%" cpu_elapsed_time="0:00.01" cpu_user_time="0.00" cpu_kernel_time="0.01" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.h264 -new /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4340" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4048" cpu_percent="85%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.2.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4316" cpu_percent="54%" cpu_elapsed_time="0:00.01" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4.hint</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4176" cpu_percent="66%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.1.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4140" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4172" cpu_percent="87%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/avc_VBR_noB_Ref5_Delay3_IDR99_Main_cabac.mp4.hint</command_line>
+  </stat>
+ </test>

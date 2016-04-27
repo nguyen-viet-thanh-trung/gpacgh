@@ -1,0 +1,40 @@
+*** mp4box-io-sky logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:06 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/media/auxiliary_files/sky.jpg" ***
+Import probing results for /home/vinguyen/code/gpac/tests/media/auxiliary_files/sky.jpg:
+File has 1 tracks
+	Track 1 type: Video (jpeg)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/auxiliary_files/sky.jpg -new /home/vinguyen/code/gpac/tests/results/temp/sky.mp4" ***
+[32mJPEG import /home/vinguyen/code/gpac/tests/media/auxiliary_files/sky.jpg - size 400 x 200
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/sky.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/sky.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:01.000 - Indicated Duration 00:00:01.000
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:01.000 - Indicated Duration 00:00:01.000
+Media Info: Language "Undetermined (und)" - Type "vide:jpeg" - 1 samples
+Visual Track layout: x=0 y=0 width=400 height=200
+Visual Track - Compressor "JPEG" - Resolution 400 x 200
+	RFC6381 Codec Parameters: jpeg
+	All samples are sync
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/sky.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/sky.2.tmp" ***
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/sky.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/sky.1.tmp" ***
+

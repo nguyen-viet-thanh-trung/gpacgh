@@ -1,0 +1,1012 @@
+*** mp42ts-rate logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:00 ***
+
+
+*** Subtest "file": executing "MP42TS  -src /home/vinguyen/code/gpac/tests/results/temp/test.mp4 -dst-file=/home/vinguyen/code/gpac/tests/results/temp/test.ts -rate 10000" ***
+Setting up program ID 1 - send rates: PSI 200 ms PCR 100 ms - PCR offset 259
+[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6240895 - size 87
+	PCR 12481274 - stream time 69:340851200 - mux time 69:340716800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6244495 - size 33
+	PCR 12484874 - stream time 69:380851200 - mux time 69:380723200 
+[0mConverting to MPEG-2 TS: |                    | (01/100)[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 101 - DTS 6244495 - size 94
+	PCR 12484888 - stream time 69:380851200 - mux time 69:380873600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 101 - DTS 6248095 - size 129
+	PCR 12488475 - stream time 69:420851200 - mux time 69:420729600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6248335 - size 215
+	PCR 12488718 - stream time 69:423517866 - mux time 69:423436800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6250255 - size 236
+	PCR 12490654 - stream time 69:445001600 - mux time 69:444944000 
+[0mConverting to MPEG-2 TS: |                    | (02/100)[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 101 - DTS 6251695 - size 121
+	PCR 12492075 - stream time 69:460851200 - mux time 69:460736000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6252175 - size 225
+	PCR 12492563 - stream time 69:466184533 - mux time 69:466150400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6254095 - size 284
+	PCR 12494498 - stream time 69:487668266 - mux time 69:487657600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6255295 - size 135
+	PCR 12495676 - stream time 69:500851200 - mux time 69:500742400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6256015 - size 292
+	PCR 12496393 - stream time 69:508851200 - mux time 69:508713600 
+[0mConverting to MPEG-2 TS: |                    | (03/100)[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6257935 - size 289
+	PCR 12498329 - stream time 69:530334933 - mux time 69:530220800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6258895 - size 147
+	PCR 12499276 - stream time 69:540851200 - mux time 69:540748800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6259855 - size 241
+	PCR 12500237 - stream time 69:551517866 - mux time 69:551427200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6261775 - size 227
+	PCR 12502160 - stream time 69:572851200 - mux time 69:572784000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6262495 - size 146
+	PCR 12502877 - stream time 69:580851200 - mux time 69:580755200 
+[0mConverting to MPEG-2 TS: |                    | (04/100)[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6263695 - size 227
+	PCR 12504095 - stream time 69:594334933 - mux time 69:594291200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6265615 - size 233
+	PCR 12506004 - stream time 69:615517866 - mux time 69:615497600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6266095 - size 152
+	PCR 12506478 - stream time 69:620851200 - mux time 69:620761600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6267535 - size 231
+	PCR 12507912 - stream time 69:636851200 - mux time 69:636704000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6269455 - size 240
+	PCR 12509848 - stream time 69:658334933 - mux time 69:658211200 
+[0mConverting to MPEG-2 TS: |=                   | (05/100)[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6269695 - size 137
+	PCR 12510078 - stream time 69:660851200 - mux time 69:660768000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6271375 - size 236
+	PCR 12511757 - stream time 69:679517866 - mux time 69:679417600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 101 - DTS 6273295 - size 144
+	PCR 12513692 - stream time 69:700851200 - mux time 69:700924800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337900 us TOO LATE: PID 102 - DTS 6273295 - size 290
+	PCR 12513706 - stream time 69:701001600 - mux time 69:701075200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6275215 - size 303
+	PCR 12515601 - stream time 69:722184533 - mux time 69:722131200 
+[0mConverting to MPEG-2 TS: |=                   | (06/100)[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 101 - DTS 6276895 - size 139
+	PCR 12517279 - stream time 69:740851200 - mux time 69:740780800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6277135 - size 272
+	PCR 12517536 - stream time 69:743668266 - mux time 69:743638400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6279055 - size 272
+	PCR 12519445 - stream time 69:764851200 - mux time 69:764844800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 101 - DTS 6280495 - size 181
+	PCR 12520893 - stream time 69:781001600 - mux time 69:780937600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6280975 - size 214
+	PCR 12521354 - stream time 69:786184533 - mux time 69:786051200 
+[0mConverting to MPEG-2 TS: |=                   | (07/100)[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6282895 - size 291
+	PCR 12523289 - stream time 69:807668266 - mux time 69:807558400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 101 - DTS 6284095 - size 217
+	PCR 12524494 - stream time 69:821001600 - mux time 69:820944000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6284815 - size 288
+	PCR 12525211 - stream time 69:829001600 - mux time 69:828915200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6286735 - size 289
+	PCR 12527120 - stream time 69:850184533 - mux time 69:850121600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 101 - DTS 6287695 - size 229
+	PCR 12528095 - stream time 69:861001600 - mux time 69:860950400 
+[0mConverting to MPEG-2 TS: |=                   | (08/100)[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6288655 - size 304
+	PCR 12529056 - stream time 69:871668266 - mux time 69:871628800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6290575 - size 239
+	PCR 12530964 - stream time 69:892851200 - mux time 69:892835200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6291295 - size 141
+	PCR 12531682 - stream time 69:900851200 - mux time 69:900806400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6292495 - size 217
+	PCR 12532886 - stream time 69:914334933 - mux time 69:914192000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6294415 - size 234
+	PCR 12534795 - stream time 69:935517866 - mux time 69:935398400 
+[0mConverting to MPEG-2 TS: |=                   | (09/100)[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 101 - DTS 6294895 - size 169
+	PCR 12535296 - stream time 69:941001600 - mux time 69:940963200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6296335 - size 289
+	PCR 12536717 - stream time 69:956851200 - mux time 69:956755200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6298255 - size 276
+	PCR 12538653 - stream time 69:978334933 - mux time 69:978262400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 101 - DTS 6298495 - size 286
+	PCR 12538896 - stream time 69:981001600 - mux time 69:980969600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6300175 - size 282
+	PCR 12540575 - stream time 69:999668266 - mux time 69:999619200 
+[0mConverting to MPEG-2 TS: |==                  | (10/100)[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6302095 - size 222
+	PCR 12542483 - stream time 70:020851200 - mux time 70:020825600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338100 us TOO LATE: PID 101 - DTS 6302095 - size 386
+	PCR 12542524 - stream time 70:021152000 - mux time 70:021276800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6304015 - size 256
+	PCR 12544405 - stream time 70:042184533 - mux time 70:042182400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337955 us TOO LATE: PID 101 - DTS 6305695 - size 469
+	PCR 12546111 - stream time 70:061152000 - mux time 70:061132800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6305935 - size 218
+	PCR 12546314 - stream time 70:063517866 - mux time 70:063388800 
+[0mConverting to MPEG-2 TS: |==                  | (11/100)[33m[MPEG2-TS Muxer] Sent PES 69337722 us TOO LATE: PID 102 - DTS 6307855 - size 236
+	PCR 12548250 - stream time 70:085001600 - mux time 70:084896000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 101 - DTS 6309295 - size 208
+	PCR 12549698 - stream time 70:101001600 - mux time 70:100988800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6309775 - size 249
+	PCR 12550158 - stream time 70:106184533 - mux time 70:106102400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6311695 - size 281
+	PCR 12552094 - stream time 70:127668266 - mux time 70:127609600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 101 - DTS 6312895 - size 135
+	PCR 12553285 - stream time 70:140851200 - mux time 70:140844800 
+[0mConverting to MPEG-2 TS: |==                  | (12/100)[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6313615 - size 272
+	PCR 12554002 - stream time 70:148851200 - mux time 70:148816000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6315535 - size 274
+	PCR 12555938 - stream time 70:170334933 - mux time 70:170323200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 101 - DTS 6316495 - size 65
+	PCR 12556872 - stream time 70:180851200 - mux time 70:180700800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6317455 - size 278
+	PCR 12557833 - stream time 70:191517866 - mux time 70:191379200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6319375 - size 278
+	PCR 12559769 - stream time 70:213001600 - mux time 70:212886400 
+[0mConverting to MPEG-2 TS: |==                  | (13/100)[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 101 - DTS 6320095 - size 29
+	PCR 12560473 - stream time 70:220851200 - mux time 70:220707200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6321295 - size 269
+	PCR 12561677 - stream time 70:234184533 - mux time 70:234092800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6323215 - size 267
+	PCR 12563613 - stream time 70:255668266 - mux time 70:255600000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 101 - DTS 6323695 - size 204
+	PCR 12564087 - stream time 70:261001600 - mux time 70:260864000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6325135 - size 255
+	PCR 12565522 - stream time 70:276851200 - mux time 70:276806400 
+[0mConverting to MPEG-2 TS: |==                  | (14/100)[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6327055 - size 257
+	PCR 12567457 - stream time 70:298334933 - mux time 70:298313600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6327295 - size 73
+	PCR 12567674 - stream time 70:300851200 - mux time 70:300720000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6328975 - size 285
+	PCR 12569352 - stream time 70:319517866 - mux time 70:319369600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 101 - DTS 6330895 - size 60
+	PCR 12571288 - stream time 70:340851200 - mux time 70:340876800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337844 us TOO LATE: PID 102 - DTS 6330895 - size 303
+	PCR 12571301 - stream time 70:341001600 - mux time 70:341027200 
+[0mConverting to MPEG-2 TS: |===                 | (15/100)[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6332815 - size 234
+	PCR 12573197 - stream time 70:362184533 - mux time 70:362083200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 101 - DTS 6334495 - size 36
+	PCR 12574875 - stream time 70:380851200 - mux time 70:380732800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6334735 - size 276
+	PCR 12575132 - stream time 70:383668266 - mux time 70:383590400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6336655 - size 285
+	PCR 12577041 - stream time 70:404851200 - mux time 70:404796800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6338095 - size 19
+	PCR 12578476 - stream time 70:420851200 - mux time 70:420739200 
+[0mConverting to MPEG-2 TS: |===                 | (16/100)[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6338575 - size 251
+	PCR 12578976 - stream time 70:426334933 - mux time 70:426304000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6340495 - size 270
+	PCR 12580885 - stream time 70:447517866 - mux time 70:447510400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6341695 - size 19
+	PCR 12582076 - stream time 70:460851200 - mux time 70:460745600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6342415 - size 290
+	PCR 12582807 - stream time 70:469001600 - mux time 70:468867200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6344335 - size 230
+	PCR 12584716 - stream time 70:490184533 - mux time 70:490073600 
+[0mConverting to MPEG-2 TS: |===                 | (17/100)[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6345295 - size 23
+	PCR 12585677 - stream time 70:500851200 - mux time 70:500752000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6346255 - size 249
+	PCR 12586651 - stream time 70:511668266 - mux time 70:511580800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6348175 - size 275
+	PCR 12588560 - stream time 70:532851200 - mux time 70:532787200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6348895 - size 19
+	PCR 12589277 - stream time 70:540851200 - mux time 70:540758400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6350095 - size 251
+	PCR 12590496 - stream time 70:554334933 - mux time 70:554294400 
+[0mConverting to MPEG-2 TS: |===                 | (18/100)[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6352015 - size 247
+	PCR 12592404 - stream time 70:575517866 - mux time 70:575500800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6352495 - size 19
+	PCR 12592878 - stream time 70:580851200 - mux time 70:580764800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6353935 - size 228
+	PCR 12594313 - stream time 70:596851200 - mux time 70:596707200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6355855 - size 247
+	PCR 12596248 - stream time 70:618334933 - mux time 70:618214400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6356095 - size 42
+	PCR 12596478 - stream time 70:620851200 - mux time 70:620771200 
+[0mConverting to MPEG-2 TS: |===                 | (19/100)[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6357775 - size 290
+	PCR 12598157 - stream time 70:639517866 - mux time 70:639420800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 101 - DTS 6359695 - size 19
+	PCR 12600093 - stream time 70:660851200 - mux time 70:660928000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337900 us TOO LATE: PID 102 - DTS 6359695 - size 288
+	PCR 12600106 - stream time 70:661001600 - mux time 70:661078400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6361615 - size 290
+	PCR 12602001 - stream time 70:682184533 - mux time 70:682134400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 101 - DTS 6363295 - size 19
+	PCR 12603680 - stream time 70:700851200 - mux time 70:700784000 
+[0mConverting to MPEG-2 TS: |====                | (20/100)[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6363535 - size 283
+	PCR 12603937 - stream time 70:703668266 - mux time 70:703641600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6365455 - size 260
+	PCR 12605845 - stream time 70:724851200 - mux time 70:724848000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 101 - DTS 6366895 - size 285
+	PCR 12607294 - stream time 70:741001600 - mux time 70:740940800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6367375 - size 258
+	PCR 12607767 - stream time 70:746334933 - mux time 70:746204800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6369295 - size 239
+	PCR 12609676 - stream time 70:767517866 - mux time 70:767411200 
+[0mConverting to MPEG-2 TS: |====                | (21/100)[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 101 - DTS 6370495 - size 23
+	PCR 12610881 - stream time 70:780851200 - mux time 70:780796800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6371215 - size 234
+	PCR 12611612 - stream time 70:789001600 - mux time 70:788918400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6373135 - size 238
+	PCR 12613520 - stream time 70:810184533 - mux time 70:810124800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 101 - DTS 6374095 - size 121
+	PCR 12614481 - stream time 70:820851200 - mux time 70:820803200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6375055 - size 229
+	PCR 12615442 - stream time 70:831517866 - mux time 70:831481600 
+[0mConverting to MPEG-2 TS: |====                | (22/100)[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6376975 - size 225
+	PCR 12617364 - stream time 70:852851200 - mux time 70:852838400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337933 us TOO LATE: PID 101 - DTS 6377695 - size 393
+	PCR 12618109 - stream time 70:861152000 - mux time 70:861110400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6378895 - size 220
+	PCR 12619287 - stream time 70:874334933 - mux time 70:874195200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6380815 - size 253
+	PCR 12621195 - stream time 70:895517866 - mux time 70:895401600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337944 us TOO LATE: PID 101 - DTS 6381295 - size 483
+	PCR 12621710 - stream time 70:901152000 - mux time 70:901116800 
+[0mConverting to MPEG-2 TS: |====                | (23/100)[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6382735 - size 274
+	PCR 12623131 - stream time 70:917001600 - mux time 70:916908800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6384655 - size 259
+	PCR 12625039 - stream time 70:938184533 - mux time 70:938115200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338244 us TOO LATE: PID 101 - DTS 6384895 - size 760
+	PCR 12625337 - stream time 70:941452800 - mux time 70:941424000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6386575 - size 251
+	PCR 12626962 - stream time 70:959517866 - mux time 70:959472000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337955 us TOO LATE: PID 102 - DTS 6388495 - size 256
+	PCR 12628911 - stream time 70:981001600 - mux time 70:981129600 
+[0mConverting to MPEG-2 TS: |====                | (24/100)[33m[MPEG2-TS Muxer] Sent PES 69338255 us TOO LATE: PID 101 - DTS 6388495 - size 426
+	PCR 12628938 - stream time 70:981152000 - mux time 70:981430400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6390415 - size 251
+	PCR 12630792 - stream time 71:002184533 - mux time 71:002035200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338411 us TOO LATE: PID 101 - DTS 6392095 - size 894
+	PCR 12632552 - stream time 71:021603200 - mux time 71:021587200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6392335 - size 221
+	PCR 12632728 - stream time 71:023668266 - mux time 71:023542400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6394255 - size 216
+	PCR 12634636 - stream time 71:044851200 - mux time 71:044748800 
+[0mConverting to MPEG-2 TS: |=====               | (25/100)[33m[MPEG2-TS Muxer] Sent PES 69338111 us TOO LATE: PID 101 - DTS 6395695 - size 584
+	PCR 12636125 - stream time 71:061302400 - mux time 71:061292800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6396175 - size 238
+	PCR 12636559 - stream time 71:066184533 - mux time 71:066105600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6398095 - size 238
+	PCR 12638481 - stream time 71:087517866 - mux time 71:087462400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338266 us TOO LATE: PID 101 - DTS 6399295 - size 859
+	PCR 12639739 - stream time 71:101452800 - mux time 71:101449600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6400015 - size 224
+	PCR 12640416 - stream time 71:109001600 - mux time 71:108969600 
+[0mConverting to MPEG-2 TS: |=====               | (26/100)[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6401935 - size 245
+	PCR 12642325 - stream time 71:130184533 - mux time 71:130176000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 101 - DTS 6402895 - size 338
+	PCR 12643286 - stream time 71:141001600 - mux time 71:140854400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6403855 - size 254
+	PCR 12644233 - stream time 71:151517866 - mux time 71:151382400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6405775 - size 253
+	PCR 12646169 - stream time 71:173001600 - mux time 71:172889600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 101 - DTS 6406495 - size 254
+	PCR 12646887 - stream time 71:181001600 - mux time 71:180860800 
+[0mConverting to MPEG-2 TS: |=====               | (27/100)[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6407695 - size 251
+	PCR 12648078 - stream time 71:194184533 - mux time 71:194096000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6409615 - size 234
+	PCR 12650013 - stream time 71:215668266 - mux time 71:215603200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6410095 - size 36
+	PCR 12650474 - stream time 71:220851200 - mux time 71:220716800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6411535 - size 246
+	PCR 12651922 - stream time 71:236851200 - mux time 71:236809600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6413455 - size 232
+	PCR 12653844 - stream time 71:258184533 - mux time 71:258166400 
+[0mConverting to MPEG-2 TS: |=====               | (28/100)[33m[MPEG2-TS Muxer] Sent PES 69337844 us TOO LATE: PID 101 - DTS 6413695 - size 467
+	PCR 12654101 - stream time 71:261152000 - mux time 71:261024000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6415375 - size 243
+	PCR 12655766 - stream time 71:279668266 - mux time 71:279523200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6417295 - size 271
+	PCR 12657675 - stream time 71:300851200 - mux time 71:300729600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337855 us TOO LATE: PID 101 - DTS 6417295 - size 226
+	PCR 12657702 - stream time 71:301001600 - mux time 71:301030400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6419215 - size 251
+	PCR 12659597 - stream time 71:322184533 - mux time 71:322086400 
+[0mConverting to MPEG-2 TS: |=====               | (29/100)[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 101 - DTS 6420895 - size 172
+	PCR 12661289 - stream time 71:341001600 - mux time 71:340886400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6421135 - size 272
+	PCR 12661532 - stream time 71:343668266 - mux time 71:343593600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6423055 - size 272
+	PCR 12663455 - stream time 71:365001600 - mux time 71:364950400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6424495 - size 39
+	PCR 12664876 - stream time 71:380851200 - mux time 71:380742400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6424975 - size 245
+	PCR 12665363 - stream time 71:386184533 - mux time 71:386156800 
+[0mConverting to MPEG-2 TS: |======              | (30/100)[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6426895 - size 247
+	PCR 12667285 - stream time 71:407517866 - mux time 71:407513600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6428095 - size 19
+	PCR 12668476 - stream time 71:420851200 - mux time 71:420748800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6428815 - size 273
+	PCR 12669207 - stream time 71:429001600 - mux time 71:428870400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6430735 - size 267
+	PCR 12671116 - stream time 71:450184533 - mux time 71:450076800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6431695 - size 19
+	PCR 12672077 - stream time 71:460851200 - mux time 71:460755200 
+[0mConverting to MPEG-2 TS: |======              | (31/100)[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6432655 - size 270
+	PCR 12673052 - stream time 71:471668266 - mux time 71:471584000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6434575 - size 260
+	PCR 12674960 - stream time 71:492851200 - mux time 71:492790400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6435295 - size 53
+	PCR 12675678 - stream time 71:500851200 - mux time 71:500761600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6436495 - size 272
+	PCR 12676896 - stream time 71:514334933 - mux time 71:514297600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6438415 - size 259
+	PCR 12678804 - stream time 71:535517866 - mux time 71:535504000 
+[0mConverting to MPEG-2 TS: |======              | (32/100)[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6438895 - size 19
+	PCR 12679278 - stream time 71:540851200 - mux time 71:540768000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6440335 - size 276
+	PCR 12680727 - stream time 71:557001600 - mux time 71:556860800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6442255 - size 250
+	PCR 12682635 - stream time 71:578184533 - mux time 71:578067200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 101 - DTS 6442495 - size 19
+	PCR 12682879 - stream time 71:580851200 - mux time 71:580774400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6444175 - size 261
+	PCR 12684571 - stream time 71:599668266 - mux time 71:599574400 
+[0mConverting to MPEG-2 TS: |======              | (33/100)[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6446095 - size 284
+	PCR 12686479 - stream time 71:620851200 - mux time 71:620780800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 101 - DTS 6446095 - size 29
+	PCR 12686493 - stream time 71:620851200 - mux time 71:620931200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6448015 - size 271
+	PCR 12688415 - stream time 71:642334933 - mux time 71:642288000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 101 - DTS 6449695 - size 19
+	PCR 12690080 - stream time 71:660851200 - mux time 71:660787200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6449935 - size 288
+	PCR 12690324 - stream time 71:663517866 - mux time 71:663494400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6451855 - size 297
+	PCR 12692246 - stream time 71:685001600 - mux time 71:684851200 
+[0mConverting to MPEG-2 TS: |======              | (34/100)[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 101 - DTS 6453295 - size 19
+	PCR 12693680 - stream time 71:700851200 - mux time 71:700793600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6453775 - size 292
+	PCR 12694168 - stream time 71:706334933 - mux time 71:706208000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6455695 - size 282
+	PCR 12696076 - stream time 71:727517866 - mux time 71:727414400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337922 us TOO LATE: PID 101 - DTS 6456895 - size 378
+	PCR 12697308 - stream time 71:741152000 - mux time 71:741100800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6457615 - size 280
+	PCR 12698012 - stream time 71:749001600 - mux time 71:748921600 
+[0mConverting to MPEG-2 TS: |=======             | (35/100)[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6459535 - size 265
+	PCR 12699921 - stream time 71:770184533 - mux time 71:770128000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6460495 - size 107
+	PCR 12700882 - stream time 71:780851200 - mux time 71:780806400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6461455 - size 261
+	PCR 12701856 - stream time 71:791668266 - mux time 71:791635200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6463375 - size 265
+	PCR 12703765 - stream time 71:812851200 - mux time 71:812841600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 101 - DTS 6464095 - size 220
+	PCR 12704496 - stream time 71:821001600 - mux time 71:820963200 
+[0mConverting to MPEG-2 TS: |=======             | (36/100)[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6465295 - size 274
+	PCR 12705687 - stream time 71:834334933 - mux time 71:834198400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6467215 - size 268
+	PCR 12707595 - stream time 71:855517866 - mux time 71:855404800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338088 us TOO LATE: PID 101 - DTS 6467695 - size 643
+	PCR 12708123 - stream time 71:861302400 - mux time 71:861270400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6469135 - size 262
+	PCR 12709531 - stream time 71:877001600 - mux time 71:876912000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6471055 - size 254
+	PCR 12711440 - stream time 71:898184533 - mux time 71:898118400 
+[0mConverting to MPEG-2 TS: |=======             | (37/100)[33m[MPEG2-TS Muxer] Sent PES 69337944 us TOO LATE: PID 101 - DTS 6471295 - size 423
+	PCR 12711710 - stream time 71:901152000 - mux time 71:901126400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6472975 - size 252
+	PCR 12713362 - stream time 71:919517866 - mux time 71:919475200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337955 us TOO LATE: PID 102 - DTS 6474895 - size 252
+	PCR 12715311 - stream time 71:941001600 - mux time 71:941132800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338555 us TOO LATE: PID 101 - DTS 6474895 - size 795
+	PCR 12715365 - stream time 71:941452800 - mux time 71:941734400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6476815 - size 276
+	PCR 12717192 - stream time 71:962184533 - mux time 71:962038400 
+[0mConverting to MPEG-2 TS: |=======             | (38/100)[33m[MPEG2-TS Muxer] Sent PES 69338111 us TOO LATE: PID 101 - DTS 6478495 - size 622
+	PCR 12718925 - stream time 71:981302400 - mux time 71:981289600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6478735 - size 267
+	PCR 12719128 - stream time 71:983668266 - mux time 71:983545600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6480655 - size 290
+	PCR 12721037 - stream time 72:004851200 - mux time 72:004752000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338266 us TOO LATE: PID 101 - DTS 6482095 - size 807
+	PCR 12722539 - stream time 72:021452800 - mux time 72:021446400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6482575 - size 255
+	PCR 12722972 - stream time 72:026334933 - mux time 72:026259200 
+[0mConverting to MPEG-2 TS: |=======             | (39/100)[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6484495 - size 239
+	PCR 12724881 - stream time 72:047517866 - mux time 72:047465600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337977 us TOO LATE: PID 101 - DTS 6485695 - size 684
+	PCR 12726113 - stream time 72:061302400 - mux time 72:061152000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6486415 - size 247
+	PCR 12726817 - stream time 72:069001600 - mux time 72:068972800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6488335 - size 251
+	PCR 12728725 - stream time 72:090184533 - mux time 72:090179200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338133 us TOO LATE: PID 101 - DTS 6489295 - size 837
+	PCR 12729727 - stream time 72:101452800 - mux time 72:101308800 
+[0mConverting to MPEG-2 TS: |========            | (40/100)[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6490255 - size 273
+	PCR 12730647 - stream time 72:111668266 - mux time 72:111536000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6492175 - size 266
+	PCR 12732556 - stream time 72:132851200 - mux time 72:132742400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337988 us TOO LATE: PID 101 - DTS 6492895 - size 637
+	PCR 12733314 - stream time 72:141302400 - mux time 72:141164800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6494095 - size 270
+	PCR 12734491 - stream time 72:154334933 - mux time 72:154249600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6496015 - size 255
+	PCR 12736400 - stream time 72:175517866 - mux time 72:175456000 
+[0mConverting to MPEG-2 TS: |========            | (41/100)[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 101 - DTS 6496495 - size 290
+	PCR 12736887 - stream time 72:181001600 - mux time 72:180870400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6497935 - size 267
+	PCR 12738322 - stream time 72:196851200 - mux time 72:196812800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6499855 - size 284
+	PCR 12740258 - stream time 72:218334933 - mux time 72:218320000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 101 - DTS 6500095 - size 165
+	PCR 12740488 - stream time 72:221001600 - mux time 72:220876800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6501775 - size 266
+	PCR 12742166 - stream time 72:239668266 - mux time 72:239526400 
+[0mConverting to MPEG-2 TS: |========            | (42/100)[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6503695 - size 274
+	PCR 12744075 - stream time 72:260851200 - mux time 72:260732800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337855 us TOO LATE: PID 101 - DTS 6503695 - size 259
+	PCR 12744102 - stream time 72:261001600 - mux time 72:261033600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6505615 - size 273
+	PCR 12746011 - stream time 72:282334933 - mux time 72:282240000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 101 - DTS 6507295 - size 148
+	PCR 12747676 - stream time 72:300851200 - mux time 72:300739200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6507535 - size 275
+	PCR 12747919 - stream time 72:303517866 - mux time 72:303446400 
+[0mConverting to MPEG-2 TS: |========            | (43/100)[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6509455 - size 269
+	PCR 12749855 - stream time 72:325001600 - mux time 72:324953600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337722 us TOO LATE: PID 101 - DTS 6510895 - size 260
+	PCR 12751290 - stream time 72:341001600 - mux time 72:340896000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6511375 - size 245
+	PCR 12751763 - stream time 72:346184533 - mux time 72:346160000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6513295 - size 233
+	PCR 12753686 - stream time 72:367517866 - mux time 72:367516800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6514495 - size 24
+	PCR 12754877 - stream time 72:380851200 - mux time 72:380752000 
+[0mConverting to MPEG-2 TS: |========            | (44/100)[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6515215 - size 239
+	PCR 12755608 - stream time 72:389001600 - mux time 72:388873600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6517135 - size 250
+	PCR 12757516 - stream time 72:410184533 - mux time 72:410080000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6518095 - size 23
+	PCR 12758477 - stream time 72:420851200 - mux time 72:420758400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6519055 - size 248
+	PCR 12759438 - stream time 72:431517866 - mux time 72:431436800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6520975 - size 239
+	PCR 12761374 - stream time 72:453001600 - mux time 72:452944000 
+[0mConverting to MPEG-2 TS: |=========           | (45/100)[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6521695 - size 48
+	PCR 12762078 - stream time 72:460851200 - mux time 72:460764800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6522895 - size 289
+	PCR 12763283 - stream time 72:474184533 - mux time 72:474150400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6524815 - size 293
+	PCR 12765218 - stream time 72:495668266 - mux time 72:495657600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6525295 - size 19
+	PCR 12765678 - stream time 72:500851200 - mux time 72:500771200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6526735 - size 296
+	PCR 12767127 - stream time 72:517001600 - mux time 72:516864000 
+[0mConverting to MPEG-2 TS: |=========           | (46/100)[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6528655 - size 260
+	PCR 12769035 - stream time 72:538184533 - mux time 72:538070400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 101 - DTS 6528895 - size 19
+	PCR 12769279 - stream time 72:540851200 - mux time 72:540777600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6530575 - size 246
+	PCR 12770957 - stream time 72:559517866 - mux time 72:559427200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 101 - DTS 6532495 - size 42
+	PCR 12772893 - stream time 72:580851200 - mux time 72:580934400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337911 us TOO LATE: PID 102 - DTS 6532495 - size 231
+	PCR 12772907 - stream time 72:581001600 - mux time 72:581084800 
+[0mConverting to MPEG-2 TS: |=========           | (47/100)[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6534415 - size 253
+	PCR 12774802 - stream time 72:602184533 - mux time 72:602140800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 101 - DTS 6536095 - size 19
+	PCR 12776480 - stream time 72:620851200 - mux time 72:620790400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6536335 - size 284
+	PCR 12776737 - stream time 72:623668266 - mux time 72:623648000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6538255 - size 254
+	PCR 12778632 - stream time 72:644851200 - mux time 72:644704000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 101 - DTS 6539695 - size 19
+	PCR 12780081 - stream time 72:660851200 - mux time 72:660796800 
+[0mConverting to MPEG-2 TS: |=========           | (48/100)[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6540175 - size 269
+	PCR 12780568 - stream time 72:666334933 - mux time 72:666211200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6542095 - size 256
+	PCR 12782477 - stream time 72:687517866 - mux time 72:687417600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 101 - DTS 6543295 - size 19
+	PCR 12783681 - stream time 72:700851200 - mux time 72:700803200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6544015 - size 253
+	PCR 12784412 - stream time 72:709001600 - mux time 72:708924800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6545935 - size 297
+	PCR 12786321 - stream time 72:730184533 - mux time 72:730131200 
+[0mConverting to MPEG-2 TS: |=========           | (49/100)[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6546895 - size 19
+	PCR 12787282 - stream time 72:740851200 - mux time 72:740809600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6547855 - size 290
+	PCR 12788256 - stream time 72:751668266 - mux time 72:751638400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6549775 - size 281
+	PCR 12790165 - stream time 72:772851200 - mux time 72:772844800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6550495 - size 19
+	PCR 12790882 - stream time 72:780851200 - mux time 72:780816000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6551695 - size 280
+	PCR 12792087 - stream time 72:794334933 - mux time 72:794201600 
+[0mConverting to MPEG-2 TS: |==========          | (50/100)[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6553615 - size 254
+	PCR 12793996 - stream time 72:815517866 - mux time 72:815408000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 101 - DTS 6554095 - size 66
+	PCR 12794483 - stream time 72:820851200 - mux time 72:820822400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6555535 - size 240
+	PCR 12795931 - stream time 72:837001600 - mux time 72:836915200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6557455 - size 224
+	PCR 12797840 - stream time 72:858184533 - mux time 72:858121600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 101 - DTS 6557695 - size 19
+	PCR 12798084 - stream time 72:860851200 - mux time 72:860828800 
+[0mConverting to MPEG-2 TS: |==========          | (51/100)[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6559375 - size 235
+	PCR 12799762 - stream time 72:879517866 - mux time 72:879478400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 101 - DTS 6561295 - size 19
+	PCR 12801698 - stream time 72:900851200 - mux time 72:900985600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337955 us TOO LATE: PID 102 - DTS 6561295 - size 290
+	PCR 12801711 - stream time 72:901001600 - mux time 72:901136000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6563215 - size 268
+	PCR 12803593 - stream time 72:922184533 - mux time 72:922041600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 101 - DTS 6564895 - size 22
+	PCR 12805285 - stream time 72:940851200 - mux time 72:940841600 
+[0mConverting to MPEG-2 TS: |==========          | (52/100)[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6565135 - size 207
+	PCR 12805515 - stream time 72:943517866 - mux time 72:943398400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6567055 - size 207
+	PCR 12807451 - stream time 72:965001600 - mux time 72:964905600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 101 - DTS 6568495 - size 19
+	PCR 12808885 - stream time 72:980851200 - mux time 72:980848000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6568975 - size 265
+	PCR 12809359 - stream time 72:986184533 - mux time 72:986112000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6570895 - size 270
+	PCR 12811295 - stream time 73:007668266 - mux time 73:007619200 
+[0mConverting to MPEG-2 TS: |==========          | (53/100)[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 101 - DTS 6572095 - size 19
+	PCR 12812472 - stream time 73:020851200 - mux time 73:020704000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6572815 - size 264
+	PCR 12813203 - stream time 73:028851200 - mux time 73:028825600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337822 us TOO LATE: PID 102 - DTS 6574735 - size 265
+	PCR 12815139 - stream time 73:050334933 - mux time 73:050332800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337833 us TOO LATE: PID 101 - DTS 6575695 - size 480
+	PCR 12816100 - stream time 73:061152000 - mux time 73:061011200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6576655 - size 263
+	PCR 12817034 - stream time 73:071517866 - mux time 73:071388800 
+[0mConverting to MPEG-2 TS: |==========          | (54/100)[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6578575 - size 249
+	PCR 12818956 - stream time 73:092851200 - mux time 73:092745600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6579295 - size 127
+	PCR 12819674 - stream time 73:100851200 - mux time 73:100716800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6580495 - size 241
+	PCR 12820892 - stream time 73:114334933 - mux time 73:114252800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6582415 - size 251
+	PCR 12822800 - stream time 73:135517866 - mux time 73:135459200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6582895 - size 132
+	PCR 12823274 - stream time 73:140851200 - mux time 73:140723200 
+[0mConverting to MPEG-2 TS: |===========         | (55/100)[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6584335 - size 274
+	PCR 12824736 - stream time 73:157001600 - mux time 73:156966400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6586255 - size 280
+	PCR 12826645 - stream time 73:178184533 - mux time 73:178172800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337855 us TOO LATE: PID 101 - DTS 6586495 - size 408
+	PCR 12826902 - stream time 73:181152000 - mux time 73:181030400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6588175 - size 259
+	PCR 12828567 - stream time 73:199668266 - mux time 73:199529600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6590095 - size 241
+	PCR 12830475 - stream time 73:220851200 - mux time 73:220736000 
+[0mConverting to MPEG-2 TS: |===========         | (56/100)[33m[MPEG2-TS Muxer] Sent PES 69337855 us TOO LATE: PID 101 - DTS 6590095 - size 277
+	PCR 12830502 - stream time 73:221001600 - mux time 73:221036800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6592015 - size 263
+	PCR 12832411 - stream time 73:242334933 - mux time 73:242243200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 101 - DTS 6593695 - size 279
+	PCR 12834089 - stream time 73:261001600 - mux time 73:260892800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6593935 - size 262
+	PCR 12834319 - stream time 73:263517866 - mux time 73:263449600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6595855 - size 235
+	PCR 12836242 - stream time 73:284851200 - mux time 73:284806400 
+[0mConverting to MPEG-2 TS: |===========         | (57/100)[33m[MPEG2-TS Muxer] Sent PES 69337722 us TOO LATE: PID 101 - DTS 6597295 - size 339
+	PCR 12837690 - stream time 73:301001600 - mux time 73:300899200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6597775 - size 246
+	PCR 12838177 - stream time 73:306334933 - mux time 73:306313600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6599695 - size 240
+	PCR 12840072 - stream time 73:327517866 - mux time 73:327369600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6600895 - size 112
+	PCR 12841277 - stream time 73:340851200 - mux time 73:340755200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6601615 - size 219
+	PCR 12841994 - stream time 73:348851200 - mux time 73:348726400 
+[0mConverting to MPEG-2 TS: |===========         | (58/100)[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6603535 - size 221
+	PCR 12843917 - stream time 73:370184533 - mux time 73:370083200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6604495 - size 32
+	PCR 12844878 - stream time 73:380851200 - mux time 73:380761600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6605455 - size 274
+	PCR 12845852 - stream time 73:391668266 - mux time 73:391590400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6607375 - size 266
+	PCR 12847774 - stream time 73:413001600 - mux time 73:412947200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6608095 - size 19
+	PCR 12848478 - stream time 73:420851200 - mux time 73:420768000 
+[0mConverting to MPEG-2 TS: |===========         | (59/100)[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6609295 - size 255
+	PCR 12849683 - stream time 73:434184533 - mux time 73:434153600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6611215 - size 241
+	PCR 12851605 - stream time 73:455517866 - mux time 73:455510400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 101 - DTS 6611695 - size 19
+	PCR 12852079 - stream time 73:460851200 - mux time 73:460774400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6613135 - size 254
+	PCR 12853527 - stream time 73:477001600 - mux time 73:476867200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6615055 - size 246
+	PCR 12855436 - stream time 73:498184533 - mux time 73:498073600 
+[0mConverting to MPEG-2 TS: |============        | (60/100)[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 101 - DTS 6615295 - size 22
+	PCR 12855679 - stream time 73:500851200 - mux time 73:500780800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6616975 - size 276
+	PCR 12857371 - stream time 73:519668266 - mux time 73:519580800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6618895 - size 267
+	PCR 12859280 - stream time 73:540851200 - mux time 73:540787200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 101 - DTS 6618895 - size 19
+	PCR 12859293 - stream time 73:540851200 - mux time 73:540937600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6620815 - size 240
+	PCR 12861202 - stream time 73:562184533 - mux time 73:562144000 
+[0mConverting to MPEG-2 TS: |============        | (61/100)[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 101 - DTS 6622495 - size 19
+	PCR 12862880 - stream time 73:580851200 - mux time 73:580793600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6622735 - size 244
+	PCR 12863138 - stream time 73:583668266 - mux time 73:583651200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6624655 - size 254
+	PCR 12865033 - stream time 73:604851200 - mux time 73:604707200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337922 us TOO LATE: PID 101 - DTS 6626095 - size 391
+	PCR 12866508 - stream time 73:621152000 - mux time 73:621100800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6626575 - size 271
+	PCR 12866968 - stream time 73:626334933 - mux time 73:626214400 
+[0mConverting to MPEG-2 TS: |============        | (62/100)[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6628495 - size 256
+	PCR 12868877 - stream time 73:647517866 - mux time 73:647420800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6629695 - size 23
+	PCR 12870082 - stream time 73:660851200 - mux time 73:660806400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6630415 - size 273
+	PCR 12870813 - stream time 73:669001600 - mux time 73:668928000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6632335 - size 270
+	PCR 12872721 - stream time 73:690184533 - mux time 73:690134400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 101 - DTS 6633295 - size 192
+	PCR 12873696 - stream time 73:701001600 - mux time 73:700963200 
+[0mConverting to MPEG-2 TS: |============        | (63/100)[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6634255 - size 264
+	PCR 12874657 - stream time 73:711668266 - mux time 73:711641600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6636175 - size 265
+	PCR 12876565 - stream time 73:732851200 - mux time 73:732848000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 101 - DTS 6636895 - size 237
+	PCR 12877296 - stream time 73:741001600 - mux time 73:740969600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6638095 - size 269
+	PCR 12878487 - stream time 73:754334933 - mux time 73:754204800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6640015 - size 288
+	PCR 12880396 - stream time 73:775517866 - mux time 73:775411200 
+[0mConverting to MPEG-2 TS: |============        | (64/100)[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 101 - DTS 6640495 - size 245
+	PCR 12880897 - stream time 73:781001600 - mux time 73:780976000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6641935 - size 278
+	PCR 12882332 - stream time 73:797001600 - mux time 73:796918400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6643855 - size 284
+	PCR 12884240 - stream time 73:818184533 - mux time 73:818124800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 101 - DTS 6644095 - size 231
+	PCR 12884497 - stream time 73:821001600 - mux time 73:820982400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6645775 - size 285
+	PCR 12886176 - stream time 73:839668266 - mux time 73:839632000 
+[0mConverting to MPEG-2 TS: |=============       | (65/100)[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6647695 - size 258
+	PCR 12888084 - stream time 73:860851200 - mux time 73:860838400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338266 us TOO LATE: PID 101 - DTS 6647695 - size 545
+	PCR 12888139 - stream time 73:861302400 - mux time 73:861440000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6649615 - size 253
+	PCR 12890007 - stream time 73:882334933 - mux time 73:882195200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 101 - DTS 6651295 - size 25
+	PCR 12891685 - stream time 73:900851200 - mux time 73:900844800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6651535 - size 263
+	PCR 12891915 - stream time 73:903517866 - mux time 73:903401600 
+[0mConverting to MPEG-2 TS: |=============       | (66/100)[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6653455 - size 266
+	PCR 12893851 - stream time 73:925001600 - mux time 73:924908800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 101 - DTS 6654895 - size 25
+	PCR 12895272 - stream time 73:940851200 - mux time 73:940700800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6655375 - size 238
+	PCR 12895759 - stream time 73:946184533 - mux time 73:946115200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6657295 - size 240
+	PCR 12897682 - stream time 73:967517866 - mux time 73:967472000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 101 - DTS 6658495 - size 19
+	PCR 12898873 - stream time 73:980851200 - mux time 73:980707200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6659215 - size 258
+	PCR 12899617 - stream time 73:989001600 - mux time 73:988979200 
+[0mConverting to MPEG-2 TS: |=============       | (67/100)[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6661135 - size 254
+	PCR 12901512 - stream time 74:010184533 - mux time 74:010035200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 101 - DTS 6662095 - size 19
+	PCR 12902473 - stream time 74:020851200 - mux time 74:020713600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6663055 - size 265
+	PCR 12903448 - stream time 74:031668266 - mux time 74:031542400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6664975 - size 273
+	PCR 12905356 - stream time 74:052851200 - mux time 74:052748800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6665695 - size 19
+	PCR 12906074 - stream time 74:060851200 - mux time 74:060720000 
+[0mConverting to MPEG-2 TS: |=============       | (68/100)[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6666895 - size 254
+	PCR 12907292 - stream time 74:074334933 - mux time 74:074256000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6668815 - size 241
+	PCR 12909201 - stream time 74:095517866 - mux time 74:095462400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6669295 - size 19
+	PCR 12909674 - stream time 74:100851200 - mux time 74:100726400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6670735 - size 232
+	PCR 12911123 - stream time 74:116851200 - mux time 74:116819200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6672655 - size 205
+	PCR 12913058 - stream time 74:138334933 - mux time 74:138326400 
+[0mConverting to MPEG-2 TS: |=============       | (69/100)[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 101 - DTS 6672895 - size 19
+	PCR 12913275 - stream time 74:140851200 - mux time 74:140732800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6674575 - size 234
+	PCR 12914953 - stream time 74:159517866 - mux time 74:159382400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6676495 - size 262
+	PCR 12916876 - stream time 74:180851200 - mux time 74:180739200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 101 - DTS 6676495 - size 19
+	PCR 12916889 - stream time 74:180851200 - mux time 74:180889600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6678415 - size 286
+	PCR 12918811 - stream time 74:202334933 - mux time 74:202246400 
+[0mConverting to MPEG-2 TS: |==============      | (70/100)[33m[MPEG2-TS Muxer] Sent PES 69337866 us TOO LATE: PID 101 - DTS 6680095 - size 512
+	PCR 12920503 - stream time 74:221152000 - mux time 74:221046400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6680335 - size 257
+	PCR 12920720 - stream time 74:223517866 - mux time 74:223452800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6682255 - size 239
+	PCR 12922655 - stream time 74:245001600 - mux time 74:244960000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6683695 - size 69
+	PCR 12924077 - stream time 74:260851200 - mux time 74:260752000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6684175 - size 268
+	PCR 12924564 - stream time 74:266184533 - mux time 74:266166400 
+[0mConverting to MPEG-2 TS: |==============      | (71/100)[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6686095 - size 267
+	PCR 12926486 - stream time 74:287668266 - mux time 74:287523200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6687295 - size 144
+	PCR 12927677 - stream time 74:300851200 - mux time 74:300758400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6688015 - size 283
+	PCR 12928395 - stream time 74:308851200 - mux time 74:308729600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337722 us TOO LATE: PID 102 - DTS 6689935 - size 268
+	PCR 12930330 - stream time 74:330334933 - mux time 74:330236800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 101 - DTS 6690895 - size 319
+	PCR 12931291 - stream time 74:341001600 - mux time 74:340915200 
+[0mConverting to MPEG-2 TS: |==============      | (72/100)[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6691855 - size 276
+	PCR 12932239 - stream time 74:351517866 - mux time 74:351443200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6693775 - size 253
+	PCR 12934175 - stream time 74:373001600 - mux time 74:372950400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6694495 - size 28
+	PCR 12934878 - stream time 74:380851200 - mux time 74:380771200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6695695 - size 289
+	PCR 12936083 - stream time 74:394184533 - mux time 74:394156800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337822 us TOO LATE: PID 102 - DTS 6697615 - size 275
+	PCR 12938019 - stream time 74:415668266 - mux time 74:415664000 
+[0mConverting to MPEG-2 TS: |==============      | (73/100)[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 101 - DTS 6698095 - size 28
+	PCR 12938479 - stream time 74:420851200 - mux time 74:420777600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6699535 - size 267
+	PCR 12939914 - stream time 74:436851200 - mux time 74:436720000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6701455 - size 239
+	PCR 12941849 - stream time 74:458334933 - mux time 74:458227200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 101 - DTS 6701695 - size 32
+	PCR 12942080 - stream time 74:460851200 - mux time 74:460784000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6703375 - size 244
+	PCR 12943758 - stream time 74:479517866 - mux time 74:479433600 
+[0mConverting to MPEG-2 TS: |==============      | (74/100)[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6705295 - size 235
+	PCR 12945680 - stream time 74:500851200 - mux time 74:500790400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 101 - DTS 6705295 - size 19
+	PCR 12945694 - stream time 74:500851200 - mux time 74:500940800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6707215 - size 222
+	PCR 12947616 - stream time 74:522334933 - mux time 74:522297600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 101 - DTS 6708895 - size 19
+	PCR 12949281 - stream time 74:540851200 - mux time 74:540796800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6709135 - size 225
+	PCR 12949524 - stream time 74:543517866 - mux time 74:543504000 
+[0mConverting to MPEG-2 TS: |===============     | (75/100)[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6711055 - size 285
+	PCR 12951433 - stream time 74:564851200 - mux time 74:564710400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 101 - DTS 6712495 - size 24
+	PCR 12952881 - stream time 74:580851200 - mux time 74:580803200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6712975 - size 276
+	PCR 12953369 - stream time 74:586334933 - mux time 74:586217600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6714895 - size 254
+	PCR 12955277 - stream time 74:607517866 - mux time 74:607424000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6716095 - size 19
+	PCR 12956482 - stream time 74:620851200 - mux time 74:620809600 
+[0mConverting to MPEG-2 TS: |===============     | (76/100)[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6716815 - size 249
+	PCR 12957213 - stream time 74:629001600 - mux time 74:628931200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6718735 - size 243
+	PCR 12959121 - stream time 74:650184533 - mux time 74:650137600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 101 - DTS 6719695 - size 19
+	PCR 12960082 - stream time 74:660851200 - mux time 74:660816000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6720655 - size 246
+	PCR 12961057 - stream time 74:671668266 - mux time 74:671644800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6722575 - size 262
+	PCR 12962952 - stream time 74:692851200 - mux time 74:692700800 
+[0mConverting to MPEG-2 TS: |===============     | (77/100)[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 101 - DTS 6723295 - size 63
+	PCR 12963683 - stream time 74:700851200 - mux time 74:700822400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6724495 - size 281
+	PCR 12964888 - stream time 74:714334933 - mux time 74:714208000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6726415 - size 255
+	PCR 12966796 - stream time 74:735517866 - mux time 74:735414400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 101 - DTS 6726895 - size 19
+	PCR 12967284 - stream time 74:740851200 - mux time 74:740828800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6728335 - size 264
+	PCR 12968718 - stream time 74:756851200 - mux time 74:756771200 
+[0mConverting to MPEG-2 TS: |===============     | (78/100)[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6730255 - size 258
+	PCR 12970654 - stream time 74:778334933 - mux time 74:778278400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 101 - DTS 6730495 - size 19
+	PCR 12970884 - stream time 74:780851200 - mux time 74:780835200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6732175 - size 264
+	PCR 12972563 - stream time 74:799517866 - mux time 74:799484800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 101 - DTS 6734095 - size 32
+	PCR 12974498 - stream time 74:820851200 - mux time 74:820992000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337966 us TOO LATE: PID 102 - DTS 6734095 - size 295
+	PCR 12974512 - stream time 74:821001600 - mux time 74:821142400 
+[0mConverting to MPEG-2 TS: |===============     | (79/100)[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6736015 - size 286
+	PCR 12976407 - stream time 74:842334933 - mux time 74:842198400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 101 - DTS 6737695 - size 19
+	PCR 12978085 - stream time 74:860851200 - mux time 74:860848000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6737935 - size 295
+	PCR 12978315 - stream time 74:863517866 - mux time 74:863404800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6739855 - size 280
+	PCR 12980251 - stream time 74:885001600 - mux time 74:884912000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 101 - DTS 6741295 - size 19
+	PCR 12981672 - stream time 74:900851200 - mux time 74:900704000 
+[0mConverting to MPEG-2 TS: |================    | (80/100)[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6741775 - size 268
+	PCR 12982160 - stream time 74:906184533 - mux time 74:906118400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6743695 - size 244
+	PCR 12984095 - stream time 74:927668266 - mux time 74:927625600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 101 - DTS 6744895 - size 21
+	PCR 12985273 - stream time 74:940851200 - mux time 74:940710400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6745615 - size 262
+	PCR 12986004 - stream time 74:948851200 - mux time 74:948832000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6747535 - size 265
+	PCR 12987926 - stream time 74:970334933 - mux time 74:970188800 
+[0mConverting to MPEG-2 TS: |================    | (81/100)[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6748495 - size 19
+	PCR 12988874 - stream time 74:980851200 - mux time 74:980716800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6749455 - size 218
+	PCR 12989835 - stream time 74:991517866 - mux time 74:991395200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6751375 - size 236
+	PCR 12991757 - stream time 75:012851200 - mux time 75:012752000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 101 - DTS 6752095 - size 19
+	PCR 12992474 - stream time 75:020851200 - mux time 75:020723200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6753295 - size 217
+	PCR 12993679 - stream time 75:034184533 - mux time 75:034108800 
+[0mConverting to MPEG-2 TS: |================    | (82/100)[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6755215 - size 235
+	PCR 12995614 - stream time 75:055668266 - mux time 75:055616000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338000 us TOO LATE: PID 101 - DTS 6755695 - size 669
+	PCR 12996115 - stream time 75:061302400 - mux time 75:061180800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6757135 - size 273
+	PCR 12997523 - stream time 75:076851200 - mux time 75:076822400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337822 us TOO LATE: PID 102 - DTS 6759055 - size 269
+	PCR 12999459 - stream time 75:098334933 - mux time 75:098329600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338311 us TOO LATE: PID 101 - DTS 6759295 - size 1003
+	PCR 12999743 - stream time 75:101603200 - mux time 75:101488000 
+[0mConverting to MPEG-2 TS: |================    | (83/100)[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6760975 - size 271
+	PCR 13001354 - stream time 75:119517866 - mux time 75:119385600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337866 us TOO LATE: PID 102 - DTS 6762895 - size 261
+	PCR 13003303 - stream time 75:141001600 - mux time 75:141043200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338466 us TOO LATE: PID 101 - DTS 6762895 - size 841
+	PCR 13003357 - stream time 75:141452800 - mux time 75:141644800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6764815 - size 260
+	PCR 13005198 - stream time 75:162184533 - mux time 75:162099200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338322 us TOO LATE: PID 101 - DTS 6766495 - size 909
+	PCR 13006944 - stream time 75:181603200 - mux time 75:181500800 
+[0mConverting to MPEG-2 TS: |================    | (84/100)[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6766735 - size 248
+	PCR 13007120 - stream time 75:183517866 - mux time 75:183456000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6768655 - size 238
+	PCR 13009056 - stream time 75:205001600 - mux time 75:204963200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338177 us TOO LATE: PID 101 - DTS 6770095 - size 824
+	PCR 13010531 - stream time 75:221452800 - mux time 75:221356800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6770575 - size 246
+	PCR 13010964 - stream time 75:226184533 - mux time 75:226169600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6772495 - size 255
+	PCR 13012886 - stream time 75:247668266 - mux time 75:247526400 
+[0mConverting to MPEG-2 TS: |=================   | (85/100)[33m[MPEG2-TS Muxer] Sent PES 69338188 us TOO LATE: PID 101 - DTS 6773695 - size 873
+	PCR 13014132 - stream time 75:261452800 - mux time 75:261363200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6774415 - size 252
+	PCR 13014795 - stream time 75:268851200 - mux time 75:268732800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6776335 - size 255
+	PCR 13016717 - stream time 75:290184533 - mux time 75:290089600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338188 us TOO LATE: PID 101 - DTS 6777295 - size 816
+	PCR 13017732 - stream time 75:301452800 - mux time 75:301369600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6778255 - size 241
+	PCR 13018653 - stream time 75:311668266 - mux time 75:311596800 
+[0mConverting to MPEG-2 TS: |=================   | (86/100)[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6780175 - size 271
+	PCR 13020561 - stream time 75:332851200 - mux time 75:332803200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338200 us TOO LATE: PID 101 - DTS 6780895 - size 867
+	PCR 13021333 - stream time 75:341452800 - mux time 75:341376000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6782095 - size 257
+	PCR 13022497 - stream time 75:354334933 - mux time 75:354310400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6784015 - size 244
+	PCR 13024406 - stream time 75:375517866 - mux time 75:375516800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338200 us TOO LATE: PID 101 - DTS 6784495 - size 747
+	PCR 13024933 - stream time 75:381452800 - mux time 75:381382400 
+[0mConverting to MPEG-2 TS: |=================   | (87/100)[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6785935 - size 239
+	PCR 13026314 - stream time 75:396851200 - mux time 75:396723200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337722 us TOO LATE: PID 102 - DTS 6787855 - size 237
+	PCR 13028250 - stream time 75:418334933 - mux time 75:418230400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338211 us TOO LATE: PID 101 - DTS 6788095 - size 871
+	PCR 13028534 - stream time 75:421452800 - mux time 75:421388800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6789775 - size 246
+	PCR 13030158 - stream time 75:439517866 - mux time 75:439436800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337922 us TOO LATE: PID 102 - DTS 6791695 - size 258
+	PCR 13032108 - stream time 75:461001600 - mux time 75:461094400 
+[0mConverting to MPEG-2 TS: |=================   | (88/100)[33m[MPEG2-TS Muxer] Sent PES 69338522 us TOO LATE: PID 101 - DTS 6791695 - size 844
+	PCR 13032162 - stream time 75:461452800 - mux time 75:461696000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6793615 - size 275
+	PCR 13034003 - stream time 75:482184533 - mux time 75:482150400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338222 us TOO LATE: PID 101 - DTS 6795295 - size 730
+	PCR 13035735 - stream time 75:501452800 - mux time 75:501401600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337811 us TOO LATE: PID 102 - DTS 6795535 - size 270
+	PCR 13035938 - stream time 75:503668266 - mux time 75:503657600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337533 us TOO LATE: PID 102 - DTS 6797455 - size 274
+	PCR 13037833 - stream time 75:524851200 - mux time 75:524713600 
+[0mConverting to MPEG-2 TS: |=================   | (89/100)[33m[MPEG2-TS Muxer] Sent PES 69338233 us TOO LATE: PID 101 - DTS 6798895 - size 730
+	PCR 13039336 - stream time 75:541452800 - mux time 75:541408000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337711 us TOO LATE: PID 102 - DTS 6799375 - size 254
+	PCR 13039769 - stream time 75:546334933 - mux time 75:546220800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6801295 - size 270
+	PCR 13041677 - stream time 75:567517866 - mux time 75:567427200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338233 us TOO LATE: PID 101 - DTS 6802495 - size 785
+	PCR 13042936 - stream time 75:581452800 - mux time 75:581414400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6803215 - size 260
+	PCR 13043600 - stream time 75:588851200 - mux time 75:588784000 
+[0mConverting to MPEG-2 TS: |==================  | (90/100)[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6805135 - size 276
+	PCR 13045535 - stream time 75:610334933 - mux time 75:610291200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338244 us TOO LATE: PID 101 - DTS 6806095 - size 773
+	PCR 13046537 - stream time 75:621452800 - mux time 75:621420800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6807055 - size 274
+	PCR 13047457 - stream time 75:631668266 - mux time 75:631648000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6808975 - size 277
+	PCR 13049352 - stream time 75:652851200 - mux time 75:652704000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338244 us TOO LATE: PID 101 - DTS 6809695 - size 806
+	PCR 13050137 - stream time 75:661452800 - mux time 75:661427200 
+[0mConverting to MPEG-2 TS: |==================  | (91/100)[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6810895 - size 264
+	PCR 13051288 - stream time 75:674334933 - mux time 75:674211200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6812815 - size 283
+	PCR 13053197 - stream time 75:695517866 - mux time 75:695417600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338255 us TOO LATE: PID 101 - DTS 6813295 - size 827
+	PCR 13053738 - stream time 75:701452800 - mux time 75:701433600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6814735 - size 274
+	PCR 13055132 - stream time 75:717001600 - mux time 75:716924800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337622 us TOO LATE: PID 102 - DTS 6816655 - size 267
+	PCR 13057041 - stream time 75:738184533 - mux time 75:738131200 
+[0mConverting to MPEG-2 TS: |==================  | (92/100)[33m[MPEG2-TS Muxer] Sent PES 69338266 us TOO LATE: PID 101 - DTS 6816895 - size 870
+	PCR 13057339 - stream time 75:741452800 - mux time 75:741440000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6818575 - size 233
+	PCR 13058963 - stream time 75:759517866 - mux time 75:759488000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337966 us TOO LATE: PID 102 - DTS 6820495 - size 234
+	PCR 13060912 - stream time 75:781001600 - mux time 75:781145600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338722 us TOO LATE: PID 101 - DTS 6820495 - size 959
+	PCR 13060980 - stream time 75:781603200 - mux time 75:781897600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337544 us TOO LATE: PID 102 - DTS 6822415 - size 250
+	PCR 13062794 - stream time 75:802184533 - mux time 75:802051200 
+[0mConverting to MPEG-2 TS: |==================  | (93/100)[33m[MPEG2-TS Muxer] Sent PES 69340377 us TOO LATE: PID 101 - DTS 6824095 - size 3321
+	PCR 13064729 - stream time 75:823558400 - mux time 75:823558400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337866 us TOO LATE: PID 102 - DTS 6824335 - size 282
+	PCR 13064743 - stream time 75:823668266 - mux time 75:823708800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 102 - DTS 6826255 - size 294
+	PCR 13066638 - stream time 75:844851200 - mux time 75:844764800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338133 us TOO LATE: PID 101 - DTS 6827695 - size 730
+	PCR 13068127 - stream time 75:861452800 - mux time 75:861308800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337766 us TOO LATE: PID 102 - DTS 6828175 - size 294
+	PCR 13068574 - stream time 75:866334933 - mux time 75:866272000 
+[0mConverting to MPEG-2 TS: |==================  | (94/100)[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6830095 - size 281
+	PCR 13070496 - stream time 75:887668266 - mux time 75:887628800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338288 us TOO LATE: PID 101 - DTS 6831295 - size 916
+	PCR 13071741 - stream time 75:901603200 - mux time 75:901465600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337655 us TOO LATE: PID 102 - DTS 6832015 - size 283
+	PCR 13072404 - stream time 75:908851200 - mux time 75:908835200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337677 us TOO LATE: PID 102 - DTS 6833935 - size 278
+	PCR 13074326 - stream time 75:930334933 - mux time 75:930192000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338300 us TOO LATE: PID 101 - DTS 6834895 - size 993
+	PCR 13075342 - stream time 75:941603200 - mux time 75:941472000 
+[0mConverting to MPEG-2 TS: |=================== | (95/100)[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6835855 - size 262
+	PCR 13076235 - stream time 75:951517866 - mux time 75:951398400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337733 us TOO LATE: PID 102 - DTS 6837775 - size 270
+	PCR 13078171 - stream time 75:973001600 - mux time 75:972905600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338000 us TOO LATE: PID 101 - DTS 6838495 - size 668
+	PCR 13078915 - stream time 75:981302400 - mux time 75:981177600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6839695 - size 265
+	PCR 13080079 - stream time 75:994184533 - mux time 75:994112000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337777 us TOO LATE: PID 102 - DTS 6841615 - size 266
+	PCR 13082015 - stream time 76:015668266 - mux time 76:015619200 
+[0mConverting to MPEG-2 TS: |=================== | (96/100)[33m[MPEG2-TS Muxer] Sent PES 69337855 us TOO LATE: PID 101 - DTS 6842095 - size 391
+	PCR 13082502 - stream time 76:021152000 - mux time 76:021033600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337644 us TOO LATE: PID 102 - DTS 6843535 - size 267
+	PCR 13083923 - stream time 76:036851200 - mux time 76:036825600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6845455 - size 245
+	PCR 13085845 - stream time 76:058184533 - mux time 76:058182400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69338011 us TOO LATE: PID 101 - DTS 6845695 - size 597
+	PCR 13086116 - stream time 76:061302400 - mux time 76:061190400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6847375 - size 263
+	PCR 13087768 - stream time 76:079668266 - mux time 76:079539200 
+[0mConverting to MPEG-2 TS: |=================== | (97/100)[33m[MPEG2-TS Muxer] Sent PES 69337566 us TOO LATE: PID 102 - DTS 6849295 - size 271
+	PCR 13089676 - stream time 76:100851200 - mux time 76:100745600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337866 us TOO LATE: PID 101 - DTS 6849295 - size 294
+	PCR 13089703 - stream time 76:101001600 - mux time 76:101046400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337744 us TOO LATE: PID 102 - DTS 6851215 - size 264
+	PCR 13091612 - stream time 76:122334933 - mux time 76:122252800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6852895 - size 54
+	PCR 13093277 - stream time 76:140851200 - mux time 76:140752000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337611 us TOO LATE: PID 102 - DTS 6853135 - size 273
+	PCR 13093520 - stream time 76:143517866 - mux time 76:143459200 
+[0mConverting to MPEG-2 TS: |=================== | (98/100)[33m[MPEG2-TS Muxer] Sent PES 69337788 us TOO LATE: PID 102 - DTS 6855055 - size 259
+	PCR 13095456 - stream time 76:165001600 - mux time 76:164966400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 101 - DTS 6856495 - size 19
+	PCR 13096877 - stream time 76:180851200 - mux time 76:180758400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337666 us TOO LATE: PID 102 - DTS 6856975 - size 264
+	PCR 13097365 - stream time 76:186184533 - mux time 76:186172800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337688 us TOO LATE: PID 102 - DTS 6858895 - size 232
+	PCR 13099287 - stream time 76:207668266 - mux time 76:207529600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337588 us TOO LATE: PID 101 - DTS 6860095 - size 19
+	PCR 13100478 - stream time 76:220851200 - mux time 76:220764800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337555 us TOO LATE: PID 102 - DTS 6860815 - size 225
+	PCR 13101195 - stream time 76:228851200 - mux time 76:228736000 
+[0mConverting to MPEG-2 TS: |=================== | (99/100)[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6862735 - size 245
+	PCR 13103117 - stream time 76:250184533 - mux time 76:250092800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337755 us TOO LATE: PID 102 - DTS 6864655 - size 265
+	PCR 13105053 - stream time 76:271668266 - mux time 76:271600000 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337633 us TOO LATE: PID 102 - DTS 6866575 - size 287
+	PCR 13106962 - stream time 76:292851200 - mux time 76:292806400 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337800 us TOO LATE: PID 102 - DTS 6868495 - size 270
+	PCR 13108897 - stream time 76:314334933 - mux time 76:314313600 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337522 us TOO LATE: PID 102 - DTS 6870415 - size 248
+	PCR 13110792 - stream time 76:335517866 - mux time 76:335369600 
+[0m                                                               [33m[MPEG2-TS Muxer] Sent PES 69337700 us TOO LATE: PID 102 - DTS 6872335 - size 259
+	PCR 13112728 - stream time 76:357001600 - mux time 76:356876800 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337577 us TOO LATE: PID 102 - DTS 6874255 - size 232
+	PCR 13114637 - stream time 76:378184533 - mux time 76:378083200 
+[0m[33m[MPEG2-TS Muxer] Sent PES 69337600 us TOO LATE: PID 102 - DTS 6876175 - size 232
+	PCR 13116559 - stream time 76:399517866 - mux time 76:399440000 
+[0mDone muxing - 76.40 sec - bitrate 10000 kbps 507977 packets written
+ Padding: 506354 packets (9968.15 kbps) - 17955 PES padded bytes (1.88013 kbps)
+

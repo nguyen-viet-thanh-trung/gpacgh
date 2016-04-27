@@ -1,0 +1,25 @@
+*** vtt-multiline-header logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:46 ***
+
+
+*** Subtest "vtt-to-mp4": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/webvtt/multiline-header.vtt -new /home/vinguyen/code/gpac/tests/results/temp/test.mp4" ***
+[32mWebVTT import
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/test.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "vtt-info": executing "MP4Box -noprog -for-test  -info 1 /home/vinguyen/code/gpac/tests/results/temp/test.mp4" ***
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:12:00.000 - Indicated Duration 00:12:00.000
+Media Info: Language "Undetermined (und)" - Type "text:wvtt" - 8 samples
+Handler name: MediaHandler
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: wvtt
+	All samples are sync
+
+Computed info from media:
+	Total size 410 bytes - Total samples duration 300000 ms
+	Average rate 10 bps - Max Rate 1008 bps
+	Chunk durations: min 11000 ms - max 420000 ms - average 102857 ms
+	Chunk sizes (bytes): min 8 - max 126 - average 58
+
+

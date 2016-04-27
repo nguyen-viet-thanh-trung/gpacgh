@@ -1,0 +1,44 @@
+*** xmlin-text-stxt-header logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:49 ***
+
+
+*** Subtest "import": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/xmlin4/text-stxt-header.nhml -new /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header.mp4" ***
+[31m[NHML import] Failed to fully read sample: dataLength 542 read 529
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "info": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:04.000 - Indicated Duration 00:00:04.000
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:04.000 - Indicated Duration 00:00:04.000
+Media Info: Language "Undetermined (und)" - Type "text:stxt" - 4 samples
+Simple Timed Text Stream - mime text/plain - encoding utf-8 - 45 bytes config
+ Size 320 x 240 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: stxt
+	Average GOP length: 4 samples
+
+
+
+*** Subtest "export-track": executing "MP4Box -noprog -for-test  -raw 1 /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header.mp4" ***
+[33mExtracting Simple Text Stream
+[0m
+
+*** Subtest "export-samples": executing "MP4Box -noprog -for-test  -raws 1 /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header.mp4" ***
+[33mExtracting Simple Text samples
+[0m
+
+*** Subtest "export-nhml": executing "MP4Box -noprog -for-test  -nhml 1 /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header.mp4" ***
+[33mExporting NHML for track stxt
+[0m
+
+*** Subtest "nhml-reimport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header_track1.nhml -new /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header_track1.mp4" ***
+[32mNHML import - Stream Type Text - ObjectTypeIndication 0xd5
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/text-stxt-header_track1.mp4: 0.500 secs Interleaving
+

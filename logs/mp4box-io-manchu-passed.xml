@@ -1,0 +1,27 @@
+ <test name="mp4box-io-manchu" result="OK" date="27/04/2016 17:45:08">
+
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="3880" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/manchu.srt</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4380" cpu_percent="97%" cpu_elapsed_time="0:00.03" cpu_user_time="0.00" cpu_kernel_time="0.03" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/manchu.srt -new /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4208" cpu_percent="75%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4004" cpu_percent="60%" cpu_elapsed_time="0:00.01" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/manchu.2.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4396" cpu_percent="80%" cpu_elapsed_time="0:00.04" cpu_user_time="0.00" cpu_kernel_time="0.03" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4.hint</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4084" cpu_percent="80%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/manchu.1.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4120" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4.tmp</command_line>
+  </stat>
+  <stat subtest="" execution_status="OK" return_status="0" mem_total_avg="0" mem_resident_avg="0" mem_resident_max="4168" cpu_percent="100%" cpu_elapsed_time="0:00.00" cpu_user_time="0.00" cpu_kernel_time="0.00" page_faults="0" file_inputs="0" socket_msg_rec="0" socket_msg_sent="0" return_value="0">
+   <command_line>MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/manchu.mp4.hint</command_line>
+  </stat>
+ </test>

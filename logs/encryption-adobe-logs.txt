@@ -1,0 +1,11 @@
+*** encryption-adobe logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:44:59 ***
+
+
+*** Subtest "Encrypt": executing "MP4Box -noprog -for-test  -crypt /home/vinguyen/code/gpac/tests/media/encryption/drm_adobe.xml -out /home/vinguyen/code/gpac/tests/results/temp/adobe-crypted.mp4 /home/vinguyen/code/gpac/tests/results/temp/source_media.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/adobe-crypted.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "Decrypt": executing "MP4Box -noprog -for-test  -decrypt /home/vinguyen/code/gpac/tests/media/encryption/drm_adobe.xml -out /home/vinguyen/code/gpac/tests/results/temp/adobe-decrypted.mp4 /home/vinguyen/code/gpac/tests/results/temp/source_media.mp4" ***
+Saving to /home/vinguyen/code/gpac/tests/results/temp/adobe-decrypted.mp4: 0.500 secs Interleaving
+
+Same Hash for /home/vinguyen/code/gpac/tests/results/temp/source_media.mp4 and /home/vinguyen/code/gpac/tests/results/temp/adobe-decrypted.mp4

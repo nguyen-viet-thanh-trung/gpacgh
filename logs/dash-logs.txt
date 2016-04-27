@@ -1,0 +1,13 @@
+*** dash logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:44:59 ***
+
+
+*** Subtest "dash-input-preparation": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/auxiliary_files/enst_video.h264 -add /home/vinguyen/code/gpac/tests/media/auxiliary_files/enst_audio.aac -new /home/vinguyen/code/gpac/tests/results/temp/file.mp4" ***
+[32m[avc-h264] Possible Variable Frame Rate: VUI "fixed_frame_rate_flag" absent.
+[0m[32mAVC-H264 import - frame size 128 x 128 at 25.000 FPS
+[0m[32mAVC Import results: 173 samples (178 NALUs) - Slices: 2 I 96 P 75 B - 0 SEI - 2 IDR
+[0m[32mAAC ADTS import  - sample rate 48000 - MPEG-4 audio - 2 channels
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/file.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "basic-dash": executing "MP4Box -noprog -for-test  -dash 1000 /home/vinguyen/code/gpac/tests/results/temp/file.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/file.mpd" ***
+

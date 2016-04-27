@@ -1,0 +1,60 @@
+*** mp4box-subtitle logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:41 ***
+
+
+*** Subtest "srt-to-svg-out": executing "MP4Box -noprog -for-test  -svg /home/vinguyen/code/gpac/tests/media/auxiliary_files/subtitle.srt -out /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt.svg" ***
+[32mTimed Text (SRT) import - text track 400 x 60, font Serif (size 18)
+[0mConversion done
+
+
+*** Subtest "ttxt-to-svg-out": executing "MP4Box -noprog -for-test  -svg /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt.ttxt -out /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttxt.svg" ***
+[32mTimed Text (GPAC TTXT) Import
+[0mConversion done
+
+
+*** Subtest "vtt-raw-output": executing "MP4Box -noprog -for-test  -raw 1:output=/home/vinguyen/code/gpac/tests/results/temp/subtitle-out.vtt /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt-wvtt.mp4" ***
+[33mExtracting WebVTT
+[0m
+
+*** Subtest "srt-to-ttxt-out": executing "MP4Box -noprog -for-test  -ttxt /home/vinguyen/code/gpac/tests/media/auxiliary_files/subtitle.srt -out /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt.ttxt" ***
+[32mTimed Text (SRT) import - text track 400 x 60, font Serif (size 18)
+[0mConversion done
+
+
+*** Subtest "srt-add": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/auxiliary_files/subtitle.srt -new /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt-tx3g.mp4" ***
+[32mTimed Text (SRT) import - text track 400 x 60, font Serif (size 18)
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt-tx3g.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "srt-vtt-add": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/auxiliary_files/subtitle.srt:fmt=VTT -new /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt-wvtt.mp4" ***
+[32mWebVTT import
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt-wvtt.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "tx3g-add": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt.ttxt -new /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttxt-tx3g.mp4" ***
+[32mTimed Text (GPAC TTXT) Import
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttxt-tx3g.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "vtt-add": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/webvtt/spec-example-basic.vtt -new /home/vinguyen/code/gpac/tests/results/temp/subtitle-vtt-wvtt.mp4" ***
+[32mWebVTT import
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/subtitle-vtt-wvtt.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "ttml-add": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/ttml/ebu-ttd_sample.ttml -new /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttml-stpp.mp4" ***
+[32mTTML Import
+[0m[33mNote: TTML import - EBU-TTD detected
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttml-stpp.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "tx3g-dump-track-out": executing "MP4Box -noprog -for-test  -ttxt 1 /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt-tx3g.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/subtitle-tx3g.ttxt" ***
+Conversion done
+
+
+*** Subtest "srt-dump-track-out": executing "MP4Box -noprog -for-test  -srt 1 /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttxt-tx3g.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/subtitle-tx3g.srt" ***
+Conversion done
+
+
+*** Subtest "ttxt-to-srt-out": executing "MP4Box -noprog -for-test  -srt /home/vinguyen/code/gpac/tests/results/temp/subtitle-srt.ttxt -out /home/vinguyen/code/gpac/tests/results/temp/subtitle-ttxt.srt" ***
+[32mTimed Text (GPAC TTXT) Import
+[0mConversion done
+

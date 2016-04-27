@@ -1,0 +1,26 @@
+*** vtt-svg logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:47 ***
+
+
+*** Subtest "vtt-to-mp4": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/webvtt/svg.vtt -new /home/vinguyen/code/gpac/tests/results/temp/test.mp4" ***
+[32mWebVTT import
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/test.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "vtt-info": executing "MP4Box -noprog -for-test  -info 1 /home/vinguyen/code/gpac/tests/results/temp/test.mp4" ***
+[33m[iso file] stts entry 1 has negative duration -59960 - forbidden ! Fixing to 1, sync may get lost (consider reimport raw media)
+[0mTrack # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:59.961 - Indicated Duration 49 Days, 17:02:47.296
+Media Info: Language "Undetermined (und)" - Type "text:wvtt" - 1500 samples
+Handler name: MediaHandler
+Unknown Text Stream
+ Size 400 x 60 - Translation X=0 Y=0 - Layer 0
+	RFC6381 Codec Parameters: wvtt
+	All samples are sync
+
+Computed info from media:
+	Total size 386047 bytes - Total samples duration 59960 ms
+	Average rate 51 kbps - Max Rate 55 kbps
+	Chunk durations: min 401 ms - max 520 ms - average 479 ms
+	Chunk sizes (bytes): min 2834 - max 3340 - average 3088
+
+

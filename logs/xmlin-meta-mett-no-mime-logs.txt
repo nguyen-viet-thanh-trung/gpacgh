@@ -1,0 +1,43 @@
+*** xmlin-meta-mett-no-mime logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:48 ***
+
+
+*** Subtest "import": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/media/xmlin4/meta-mett-no-mime.nhml -new /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime.mp4" ***
+[33mText (Metadata, Subtitle or SimpleText) SampleEntry: mime is mandatory. Using text/plain.
+[0m[31m[NHML import] Failed to fully read sample: dataLength 542 read 529
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "info": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:05.000 - Indicated Duration 00:00:05.000
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has no MPEG4 IOD/OD
+
+Track # 1 Info - TrackID 1 - TimeScale 1000
+Media Duration 00:00:05.000 - Indicated Duration 00:00:05.000
+Media Info: Language "Undetermined (und)" - Type "meta:mett" - 5 samples
+Textual Metadata Stream - mime text/plain - encoding utf-8
+	RFC6381 Codec Parameters: mett
+	Average GOP length: 5 samples
+
+
+
+*** Subtest "export-track": executing "MP4Box -noprog -for-test  -raw 1 /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime.mp4" ***
+[33mExtracting Text-based Metadata Stream
+[0m
+
+*** Subtest "export-samples": executing "MP4Box -noprog -for-test  -raws 1 /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime.mp4" ***
+[33mExtracting Metadata Text samples
+[0m
+
+*** Subtest "export-nhml": executing "MP4Box -noprog -for-test  -nhml 1 /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime.mp4" ***
+[33mExporting NHML for track mett
+[0m
+
+*** Subtest "nhml-reimport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime_track1.nhml -new /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime_track1.mp4" ***
+Saving /home/vinguyen/code/gpac/tests/results/temp/meta-mett-no-mime_track1.mp4: 0.500 secs Interleaving
+

@@ -1,0 +1,79 @@
+*** mp4box-io-svc_BasketBallDrive1080p50_mc_1Mbps logs (GPAC version 0.6.2-DEV-rev408-g898a902-master ) - test date 27/04/2016 17:45:09 ***
+
+
+*** Subtest "RawMediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/external_media/import/svc_BasketBallDrive1080p50_mc_1Mbps.h264" ***
+Import probing results for /home/vinguyen/code/gpac/tests/external_media/import/svc_BasketBallDrive1080p50_mc_1Mbps.h264:
+File has 1 tracks
+	Track 1 type: Video (....)
+
+
+
+*** Subtest "MediaImport": executing "MP4Box -noprog -for-test  -add /home/vinguyen/code/gpac/tests/external_media/import/svc_BasketBallDrive1080p50_mc_1Mbps.h264 -new /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4" ***
+[32m[avc-h264] Possible Variable Frame Rate: VUI "fixed_frame_rate_flag" absent.
+[0m[32mAVC-H264 import - frame size 1280 x 720 at 50.000 FPS
+[0m[32mSVC Detected - SSPS ID 0 - frame size 1920 x 1080
+[0m[32mAVC Import results: 501 samples (2160 NALUs) - Slices: 12 I 126 P 363 B - 387 SEI - 12 IDR
+[0m[32mSVC (SSPS ID 0) Import results: Slices: 12 I 126 P 363 B
+[0m[32mStream uses forward prediction - stream CTS offset: 2 frames
+[0mSaving /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4: 0.500 secs Interleaving
+
+
+*** Subtest "MediaInfo": executing "MP4Box -noprog -for-test  -info /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4" ***
+* Movie Info *
+	Timescale 600 - 1 track
+	Computed Duration 00:00:10.020 - Indicated Duration 00:00:10.020
+	Fragmented File: no
+	File suitable for progressive download (moov before mdat)
+	File Brand isom - version 1
+	Created: UNKNOWN DATE	Modified: UNKNOWN DATE
+File has root IOD (9 bytes)
+Scene PL 0xff - Graphics PL 0xff - OD PL 0xff
+Visual PL: AVC/H264 Profile (0x7f)
+Audio PL: No audio capability required (0xff)
+No streams included in root OD
+
+Track # 1 Info - TrackID 1 - TimeScale 200
+Media Duration 00:00:10.020 - Indicated Duration 00:00:10.020
+Track has 1 edit lists: track duration is 00:00:10.020
+Media Info: Language "Undetermined (und)" - Type "vide:avc1" - 501 samples
+Visual Track layout: x=0 y=0 width=1280 height=720
+MPEG-4 Config: Visual Stream - ObjectTypeIndication 0x21
+AVC/H264 Video - Visual Size 1280 x 720
+	AVC Info: 1 SPS - 1 PPS - Profile High @ Level 3.2
+	NAL Unit length bits: 32
+	Pixel Aspect Ratio 1:1 - Indicated track size 1280 x 720
+	Chroma format 1 - Luma bit depth 8 - chroma bit depth 8
+	SPS#1 hash: 6DD87966881DA1A568762B478CAFAF58F16CC0C3
+	PPS#1 hash: EF201B815F58F908DCEBF71182F58C2DCF852B6A
+
+	SVC Info: 1 SPS - 1 PPS - Profile Scalable High @ Level 5
+	SVC NAL Unit length bits: 32
+		SSPS ID 0 - Visual Size 1920 x 1080
+	Pixel Aspect Ratio 1:1 - Indicated track size 1280 x 720
+	SPS#1 hash: 2A5228F935F376D35BF7B3C4BDE651BAB263EA87
+	PPS#1 hash: CCFA38B6EC5EDE225B30B6981E79822EB5A52051
+Self-synchronized
+	RFC6381 Codec Parameters: avc1.640020
+	Average GOP length: 45 samples
+
+
+
+*** Subtest "MediaTime": executing "MP4Box -noprog -for-test  -dts /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.2.tmp" ***
+
+
+*** Subtest "RTPHint": executing "MP4Box -noprog -for-test  -hint /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4.hint" ***
+Hinting file with Path-MTU 1450 Bytes
+Hinting track ID 1 - Type "avc1:avc1" (H264) - BW 1754 kbps
+Saving to /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4.hint: 0.500 secs Interleaving
+
+
+*** Subtest "XMDDump": executing "MP4Box -noprog -for-test  -diso /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4 -out /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.1.tmp" ***
+
+
+*** Subtest "RTPDump": executing "MP4Box -noprog -for-test  -drtp /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4.hint -out /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4.tmp" ***
+
+
+*** Subtest "RTPUnhint": executing "MP4Box -noprog -for-test  -unhint /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4.hint" ***
+Removing hint track ID 65536
+Saving /home/vinguyen/code/gpac/tests/results/temp/svc_BasketBallDrive1080p50_mc_1Mbps.mp4.hint: 0.500 secs Interleaving
+
